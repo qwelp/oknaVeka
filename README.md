@@ -4,7 +4,7 @@
 
 #### Для начала работы
 
-1. $ git clone https://github.com/qwelp/billet_gulp.git siteName
+1. $ git clone https://github.com/qwelp/template-babel.git siteName
 - cd siteName
 
 2. Далее установите gulp-cli (если ещё не установлен) и зависимости проекта (список зависимостей возьмется из package.json файла)
