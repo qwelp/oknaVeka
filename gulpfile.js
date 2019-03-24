@@ -10,6 +10,7 @@ global.$ = {
 		app: require('./gulp/paths/app.js')
 	},
 	gulp: require('gulp'),
+	babel: require("gulp-babel"),
 	merge: require('merge-stream'),
 	del: require('del'),
 	fs: require('file-system'),
@@ -23,9 +24,9 @@ $.path.task.forEach(function (taskPath) {
 
 $.gulp.task('default', $.gulp.series(
 	'clean',
+	$.gulp.parallel('sass'),
+	$.gulp.parallel('pug'),
 	$.gulp.parallel(
-		'sass',
-		'pug',
 		'js:foundation',
 		'js:process',
 		'copy:image',
