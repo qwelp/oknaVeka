@@ -1,0 +1,11 @@
+section.indexAdvantages
+	.container
+		.indexAdvantagesWrapper
+			h2.indexAdvantagesTitle.commonTitle Ваши преимущества
+			ul.indexAdvantages__items
+				each item in indexAdvantages
+					li.indexAdvantages__item
+						.indexAdvantagesIcon
+							div(class=`icon-${item.icon}`)
+						.indexAdvantages__title !{item.title}
+						.indexAdvantages_text=item.text

@@ -1,0 +1,17 @@
+section.indexPopular
+	.container
+		.indexPopularWrapper
+			h2.indexPopularTitle.commonTitle Популярное
+			.indexPopularDesc.commonDescription
+				| Своим клиентам компания «Окна Века» предлагает только лучшие пластиковые окна, включающие в себя:
+				| Профиль VEKA – металлопластиковый профиль, изготовленный из высококачественного экологичного пластика
+				| (ПВХ), устойчивого к влиянию внешней среды, элегантной и технически-продуманной до мельчайших
+				| деталей формы, шириной 58/70/90 мм.
+			ul.indexPopular__items
+				each item in indexPopular
+					li.indexPopular__item
+						a.indexPopular__link(href="#")
+							.indexPopularImg
+								img.indexPopular__img(src=`${item.img}` alt="")
+							.indexPopular__title Kunststoff-Fenster
+							.indexPopularPrice от #[span.indexPopularPrice__summ !{item.price} ₽] /m2

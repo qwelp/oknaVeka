@@ -1,3 +1,87 @@
+body, html {
+	height: 100%;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+input {
+	font-family: 'Open Sans', sans-serif;
+}
+
+button {
+	cursor: pointer;
+}
+
+*:focus, *:active {
+	outline: none;
+}
+
+// font-family: 'Titillium Web', sans-serif;
+
+.bodyWrapper {
+	box-sizing: border-box;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.commonTitle {
+	font-size: 36px;
+	letter-spacing: normal;
+	color: rgb(51, 51, 51);
+	line-height: 1.6;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 16px;
+}
+
+.commonDescription {
+	font-size: 18px;
+	color: rgb(51, 51, 51);
+	line-height: 25px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.commonBtn {
+	border: 1px solid rgb(24, 117, 240);
+	border-radius: 4px;
+	width: 149px;
+	height: 48px;
+	line-height: 46px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	background-color: #ffffff;
+	color: rgb(24, 117, 240);
+
+	&.blue {
+		background-color: rgb(24, 117, 240);
+		color: #ffffff;
+	}
+}
+
+.commonCenter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mCSB_dragger_bar{
+	background-color: #999 !important;
+}
+
+
+@media (max-width: 1200px) {
+
+}
 
 @import 'sprite/sprite';
-@import 'blocks/**/*.scss';
+@import 'common/**/*.scss';
+@import 'pages/**/*.scss';
+

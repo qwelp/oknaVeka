@@ -1,0 +1,180 @@
+.menuVertical {
+	position: relative;
+
+	&:hover {
+
+		.menuVertical__items.pos {
+			display: block;
+		}
+
+	}
+}
+
+.menuVerticalTitle {
+	background-color: rgb(52, 168, 83);
+	height: 48px;
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	text-decoration: none;
+
+	& .icon-arrow-down {
+		margin-left: 10px;
+	}
+}
+
+.menuVertical__items {
+	display: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #3e3e3e;
+	position: relative;
+
+	&.active {
+		display: block;
+	}
+
+	&.pos {
+		position: absolute;
+		top: 100%;
+		width: 100%;
+		left: 0;
+		z-index: 100;
+	}
+}
+
+.menuVertical__item {
+
+	&:not(:first-child) {
+		border-top: 1px solid rgb(85, 85, 85);
+	}
+
+	&:hover {
+
+		& .menuVerticalSub__title,
+		& .menuVerticalSub {
+			display: block;
+		}
+	}
+}
+
+.menuVertical__link {
+	text-decoration: none;
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	padding: 16.6px 17px 17px 0;
+
+	&:hover {
+
+		background-color: #ffffff;
+		color: #3e3e3e;
+
+		& .menuVertical__icon {
+			display: none;
+		}
+
+		& .menuVertical__icon-hover {
+			display: inline-block;
+		}
+	}
+}
+
+.menuVertical__link-col {
+
+	&:first-child {
+		width: 60px;
+	}
+
+	&:last-child {
+		flex-grow: 1;
+	}
+}
+
+.menuVertical__icon {
+	display: inline-block;
+}
+
+.menuVertical__icon-hover {
+	display: none;
+}
+
+.menuVerticalSub__title {
+	font-size: 24px;
+	color: rgb(80, 80, 80);
+	padding: 15px 28px;
+}
+
+.menuVerticalSub {
+	display: none;
+	position: absolute;
+	z-index: 100;
+	left: 100%;
+	top: 0;
+	height: 100%;
+	box-sizing: border-box;
+	background-color: #f0f0f0;
+	width: 192px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menuVerticalSub__item {
+
+	&:hover {
+		& .menuVerticalSub2 {
+			display: block;
+		}
+	}
+}
+
+.menuVerticalSub__link {
+	text-decoration: none;
+	font-size: 14px;
+	color: rgb(80, 80, 80);
+	padding: 15px 28px;
+	display: block;
+
+	&:hover {
+		background-color: #ffffff;
+	}
+}
+
+.menuVerticalSub2 {
+	display: none;
+	position: absolute;
+	z-index: 100;
+	left: 100%;
+	top: 0;
+	height: 100%;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	width: 192px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menuVerticalSub2__item {
+
+}
+
+.menuVerticalSub2__link {
+	display: block;
+	text-decoration: none;
+	padding: 15px 25px;
+	font-size: 14px;
+	color: rgb(80, 80, 80);
+
+	& .icon-arrow-right-blue {
+		display: inline-block;
+		margin-right: 16px;
+	}
+
+	&:hover {
+		background-color: #f0f0f0;
+	}
+}

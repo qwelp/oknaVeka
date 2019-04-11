@@ -1,0 +1,39 @@
+section.indexNews
+	.container
+		.indexNewsWrapper
+			.indexNewsCol
+				h2.indexNewsTitle Свежие новости
+				ul.indexNews__items
+					each item in indexNews
+						li.indexNews__item
+							.indexNews__col
+								.indexNewsImg
+									img.indexNewsImg__img(src=`${item.img}` alt="")
+							.indexNews__col
+								.indexNews__date 03 марта 2019
+								.indexNews__title Окно — важный элемент любого дома
+								.indexNews__text
+									| Своим клиентам компания «Окна Века» предлагает только лучшие пластиковые окна,
+									| включающие в себя: Профиль VEKA – металлопластиковый профиль, изготовленный из
+									| высококачественного экологичного пластика (ПВХ), устойчивого к влиянию внешней
+									| среды, элегантной и технически-продуманной до мельчайших деталей формы,
+									| шириной 58/70/90 мм.
+								a.indexNews__link(href="#") Читать полностью
+			.indexNewsCol
+				h2.indexNewsTitle Фото последних работ
+				ul.indexNews__items
+					each item in indexFoto
+						li.indexNews__item
+							.indexNews__col
+								.indexNewsImg
+									img.indexNewsImg__img(src=`${item.img}` alt="")
+							.indexNews__col
+								.indexNews__date Ул. Проспект Мира, дом 8
+								.indexNews__title Окно — важный элемент любого дома
+								.indexNews__text
+									| Своим клиентам компания «Окна Века» предлагает только лучшие пластиковые окна,
+									| включающие в себя: Профиль VEKA – металлопластиковый профиль, изготовленный из
+									| высококачественного экологичного пластика (ПВХ), устойчивого к влиянию внешней
+									| среды, элегантной и технически-продуманной до мельчайших деталей формы,
+									| шириной 58/70/90 мм.
+								a.indexNews__link(href="#") Читать полностью

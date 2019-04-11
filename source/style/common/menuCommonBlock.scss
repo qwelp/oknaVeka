@@ -1,0 +1,20 @@
+.menuCommonBlock {
+	margin-bottom: 34px;
+}
+
+.menuCommonBlockWrapper {
+	display: flex;
+}
+
+.menuCommonBlock__col {
+
+	&:first-child {
+		min-width: 254px;
+		max-width: 254px;
+	}
+
+	&:last-child {
+		width: 886px;
+	}
+}
+

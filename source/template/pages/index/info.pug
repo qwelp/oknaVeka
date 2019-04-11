@@ -1,0 +1,29 @@
+section.indexInfo
+	.container
+		.indexInfoWrapper
+			h2.indexInfoTitle.commonTitle Оконный завод «Окна Века» в Санкт-Петербург
+			.indexInfoDesc.commonDescription
+				| Своим клиентам компания «Окна Века» предлагает только лучшие пластиковые окна, включающие в себя:
+				| Профиль VEKA – металлопластиковый профиль, изготовленный из высококачественного экологичного пластика
+				| (ПВХ), устойчивого к влиянию внешней среды, элегантной и технически-продуманной до мельчайших деталей
+				| формы, шириной 58/70/90 мм.
+		.indexInfoTb
+			.indexInfoTb__col
+				.indexInfoPreview
+					.indexInfoPreview__row
+						.indexInfoPreview__count 20
+						.indexInfoPreview__text лет опыта на<br> оконном рынке России
+					.indexInfoPreview__row
+						.indexInfoPreview__count 304 680
+						.indexInfoPreview__text счастливых клиентов
+					.indexInfoPreview__row
+						.indexInfoPreview__count 5
+						.indexInfoPreview__text Бессрочная гарантия на пластиковые изделия
+			.indexInfoTb__col
+				.indexInfo__items
+					each item in indexInfo
+						.indexInfo__item
+							.indexInfo__col
+								div(class=`icon-${item.img}`)
+							.indexInfo__col
+								.indexInfo__text !{item.title}

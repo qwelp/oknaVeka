@@ -1,0 +1,49 @@
+.share {
+	background-color: #f53638;
+}
+
+.shareWrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #ffffff;
+	height: 48px;
+}
+
+.share__col {
+
+	&:nth-child(1) {
+		width: 80%;
+	}
+
+	&:nth-child(2) {
+
+	}
+
+	&:nth-child(3) {
+
+	}
+}
+
+.share__text {
+	font-size: 20px;
+}
+
+.share__date {
+	font-size: 14px;
+}
+
+.share__btn {
+	border-radius: 4px;
+	background-color: rgb(255, 255, 255);
+	width: 117px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(40, 40, 40);
+}
+

@@ -1,0 +1,144 @@
+.indexConfigurator {
+	padding: 0 0 65px 0;
+}
+
+.indexConfiguratorWrapeer {
+	display: flex;
+	border-bottom: 1px solid #ced3d5;
+}
+
+.indexConfigurator__col {
+
+	flex: 1;
+
+	&:nth-child(1) {
+		background: url("../img/index/configurator-bg.png") no-repeat 3px -25px;
+	}
+
+	&:nth-child(2) {
+
+	}
+
+	padding-bottom: 40px;
+}
+
+.indexConfiguratorBody {
+
+}
+
+.indexConfiguratorTitle {
+	display: flex;
+	align-items: center;
+	margin-left: 27px;
+	margin-bottom: 15px;
+	font-size: 36px;
+	letter-spacing: -.1px;
+	font-weight: normal;
+	margin-top: 8px;
+}
+
+.indexConfiguratorTitle_h2 {
+	display: inline-block;
+	font-size: 36px;
+	letter-spacing: -.1px;
+	font-weight: normal;
+}
+
+.icon-configurator-title {
+	margin-right: 19px;
+}
+
+.indexConfiguratorDesc {
+	font-size: 16px;
+	color: rgb(128, 128, 128);
+	margin-bottom: 37px;
+	margin-left: 87px;
+}
+
+
+.indexConfigurator__items {
+	list-style-type: none;
+	padding: 0;
+	margin: -18px 0 18px -7px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.indexConfigurator__item {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 18px;
+	box-sizing: border-box;
+	line-height: 16px;
+
+	&:nth-child(2n) {
+		margin-left: -25px;
+		background: url("../img/configurator-arrow-right.png") no-repeat 0 5px;
+		padding-left: 15px;
+		width: calc(50% + 15px);
+	}
+}
+
+.indexConfigurator__number {
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	background-color: #1875f0;
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 18px;
+}
+
+.indexConfigurator__title {
+	font-size: 18px;
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+
+.indexConfigurator__text {
+	font-size: 14px;
+	line-height: 18px;
+	color: rgb(51, 51, 51);
+	padding: 0 25px;
+}
+
+.indexConfigurator__control {
+	text-align: center;
+}
+
+.indexConfigurator__btn {
+	border-radius: 4px;
+	background-color: rgb(24, 117, 240);
+	width: 323px;
+	height: 50px;
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	margin-left: -30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

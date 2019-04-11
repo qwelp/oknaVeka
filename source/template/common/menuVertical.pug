@@ -1,0 +1,24 @@
+.menuVertical
+	a.menuVerticalTitle.commonCenter(href="#")
+		| Каталог
+		.icon-arrow-down
+	ul.menuVertical__items.active
+		each section, i in menuVertical
+			li.menuVertical__item
+				a.menuVertical__link(href="#")
+					.menuVertical__link-col.commonCenter
+						.menuVertical__icon(class=`icon-${section.icon}`)
+						.menuVertical__icon-hover(class=`icon-${section.icon}-hover`)
+					.menuVertical__link-col=section.title
+				each sectionTitle in section.items
+					ul.menuVerticalSub
+						li.menuVerticalSub__title=sectionTitle.title
+						each sectionSub, j in sectionTitle.items
+							li.menuVerticalSub__item
+								a.menuVerticalSub__link(href="#")=sectionSub.title
+								ul.menuVerticalSub2
+									each sectionSub2 in sectionSub.items
+										li.menuVerticalSub2__item
+											a.menuVerticalSub2__link(href="#")
+												.icon-arrow-right-blue
+												| !{sectionSub2.title}

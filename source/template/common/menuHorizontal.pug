@@ -1,0 +1,14 @@
+.menuHorizontal
+	ul.menuHorizontal__items
+		each section, i in menuHorizontal
+			li.menuHorizontal__item(class=(section.style === 'orange') ? 'orange' : '')(class=(i === 0) ? 'active' : '')
+				a.menuHorizontal__link(href="#")
+					| !{section.title}
+					.icon-arrow-down-orange
+					.icon-arrow-down
+				ul.menuHorizontalSub__items
+					each sectionSub in section.items
+						li.menuHorizontalSub__item
+							a.menuHorizontalSub__link(href="#")
+								.icon-arrow-right-blue
+								| !{sectionSub.title}

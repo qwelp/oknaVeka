@@ -1,0 +1,18 @@
+section.indexConfigurator
+	.container
+		.indexConfiguratorWrapeer
+			.indexConfigurator__col
+			.indexConfigurator__col
+				.indexConfiguratorBody
+					.indexConfiguratorTitle
+						.icon-configurator-title
+						h2.indexConfiguratorTitle_h2 Конфигуратор продукта
+					.indexConfiguratorDesc В четыре простых шага к желаемому продукту
+					ul.indexConfigurator__items
+						each item, i in indexConfigurator
+							li.indexConfigurator__item
+								.indexConfigurator__number=(i+1)
+								.indexConfigurator__title=item.title
+								.indexConfigurator__text=item.text
+					.indexConfigurator__control
+						a.indexConfigurator__btn(href="#") В конфигуратор продукта

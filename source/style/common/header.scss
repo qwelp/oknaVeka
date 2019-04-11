@@ -1,0 +1,105 @@
+.header {
+
+}
+
+.headerWrap {
+	margin: 15px 0 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 100%;
+}
+
+.header__col {
+
+	box-sizing: border-box;
+
+	&:nth-child(1) {
+
+	}
+
+	&:nth-child(2) {
+
+	}
+
+	&:nth-child(3) {
+		& .headerPopupLink {
+			left: -5px;
+		}
+	}
+
+	&:nth-child(4) {
+		& .headerPopupLink {
+			left: -10px;
+		}
+	}
+
+	&:nth-child(5) {
+
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+
+.logo {
+	display: block;
+	position: relative;
+	top: -2px;
+}
+
+.headerPopupLink {
+	position: relative;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	margin-top: 5px;
+}
+
+.headerPopupLink__icon {
+	border-radius: 4px;
+	background-color: rgb(48, 171, 235);
+	width: 40px;
+	height: 42px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.headerPopupLink__text {
+	color: rgb(40, 40, 40);
+	line-height: 1.2;
+	font-size: 16px;
+	margin-left: 13px;
+}
+
+.headerContact {
+	margin-top: 2px;
+}
+
+.headerContact__phone {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 23px;
+	color: rgb(40, 40, 40);
+	margin-bottom: 5px;
+}
+
+.headerContact__time {
+	font-size: 14px;
+	color: rgb(136, 136, 136);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
