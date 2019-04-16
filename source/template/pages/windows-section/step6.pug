@@ -1,0 +1,11 @@
+section.wSectionStep6
+	.container
+		if step6 !== 'noTitle'
+			h2.wSectionStep6Title.wSectionTitle #[strong Шаг 6] Выберите вариант раскладки
+		.wSectionStep6_items
+			each item in wSectionStep6Items
+				.wSectionStep6__item
+					.wSectionStep6__title WHS (BXC)
+					.wSectionStep6Img
+						img.wSectionStep6__img(src=`${item.img}` alt="")
+					button.wSectionStep6__btn.dBtnWhiteBg Выбрать

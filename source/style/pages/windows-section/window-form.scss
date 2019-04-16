@@ -1,0 +1,118 @@
+.wSectionWinForm {
+	margin-bottom: 40px;
+}
+
+.wSectionWinFormTitle {
+	line-height: 36px;
+}
+
+.wSectionWinFormDesc {
+
+}
+
+.wSectionWinForm__items {
+	display: flex;
+	justify-content: space-between;
+	margin: -30px 0 30px -30px;
+}
+
+.wSectionWinForm__item {
+	width: calc(25% + 30px);
+	margin-left: 30px;
+	margin-top: 25px;
+}
+
+.wSectionWinForm__title {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 24px;
+	color: #333333;
+}
+
+.wSectionWinFormPrice {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.wSectionWinFormPrice__col {
+
+	&:nth-child(1) {
+
+	}
+
+	&:nth-child(3) {
+
+	}
+}
+
+.wSectionWinFormPrice__old {
+
+}
+
+.wSectionWinFormPrice__summ {
+
+}
+
+.wSectionWinFormImg {
+
+}
+
+.wSectionWinFormPrice__img {
+
+}
+
+.wSectionWinFormControl {
+	text-align: center;
+}
+
+@media (max-width: 1170px) {
+	.wSectionWinForm__items {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: -45px 0 35px -30px;
+	}
+
+	.wSectionWinForm__item {
+		width: auto;
+		box-sizing: border-box;
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	.wSectionWinFormPrice {
+		margin-bottom: 20px;
+	}
+
+	.wSectionWinFormTitle {
+		line-height: 26px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+extends ../_template
+
+block variables
+	- var title = 'Алюминиевые окна'
+	- var info = 3;
+
+block content
+	include ../common/MenuCommonBlock_inner
+	include windows-detail/preview
+	include aluminum-windows/windows
+	include stock/preview
+	include aluminum-windows/info
+	include index/consultationForm
+	include windows-detail/info
+	include windows-detail/certificates
+	include windows-section/description
+	include index/ordering

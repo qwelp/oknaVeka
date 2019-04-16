@@ -1,0 +1,12 @@
+section.contactInstallers
+	.container
+		h2.contactInstallersTitle.dTitle Наши монтажники
+		.contactInstallers__items
+			each item in contactInstallers
+				a.contactInstallers__item(href=`${item.photo}`)
+					.contactInstallersImg
+						.wDetailCertItems__magnifier
+							.icon-magnifier
+						img.contactInstallers__img(src=`${item.photo}` alt="")
+					.contactInstallers__name=item.title
+					.contactInstallers__prof=item.prof

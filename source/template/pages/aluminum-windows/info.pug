@@ -1,0 +1,13 @@
+.alInfo
+	.container
+		.alInfo__items
+			each item in aluminumInfo
+				.alInfo__item
+					.alInfo__title=item.title
+					a.alInfoImg(href=`${item.img}`)
+						.wDetailCertItems__magnifier
+							.icon-magnifier
+						img.alInfoImg__img(src=`${item.img}`)
+					.alInfo__text
+						| Мы работаем без простоев и дело не в логистике, а в полностью автоматизированной
+						| складской системе, работающей без участия человека и не допускающей просчетов.

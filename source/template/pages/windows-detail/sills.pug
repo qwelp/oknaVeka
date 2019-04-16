@@ -1,0 +1,20 @@
+.wDetailSills
+	.container
+		h2.wDetailSillsTitle.dTitle Подоконники на окна Softline 82<br>от Veka привлекают выгодой
+		.wDetailSillsDesc.dDesc
+			| Своим клиентам компания «Окна Века» предлагает только лучшие пластиковые окна,
+			| включающие в себя: Профиль VEKA – металлопластиковый профиль, изготовленный из
+			| высококачественного экологичного пластика (ПВХ), устойчивого к влиянию внешней среды,
+			| элегантной и технически-продуманной до мельчайших деталей формы, шириной 58/70/90 мм.
+		ul.wDetailSillsItems
+			each item in wDetailSillsItems
+				li.wDetailSillsItems__item
+					.wDetailSillsItems__title=item.title
+					.wDetailSillsItemsPrice
+						.wDetailSillsItemsPrice__col
+							.wDetailSillsItemsPrice__old от !{item.price} /m2
+						.wDetailSillsItemsPrice__col
+							.wDetailSillsItemsPrice__summ
+								| от #[span.wDetailSillsItemsPrice__int !{item.old}] ₽ /m2
+					.wDetailSillsItemsImg
+						img.wDetailSillsItems__img(src=`${item.img}` alt="")

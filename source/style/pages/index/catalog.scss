@@ -80,10 +80,20 @@
 	font-weight: bold;
 }
 
-
 .indexCatalogImg {
 	position: relative;
 	margin-bottom: 10px;
+	width: 100%;
+	height: 379px;
+}
+
+.indexCatalog__img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .indexCatalogImg__items {
@@ -130,4 +140,123 @@
 
 .indexCatalogControl__btn {
 
+}
+
+@media (max-width: 1170px) {
+	.indexCatalogControl__btn {
+		width: 140px;
+	}
+	.indexCatalogImg {
+		position: relative;
+		margin-bottom: 10px;
+		width: 100%;
+		height: 350px;
+	}
+
+	.indexCatalog__img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	.indexCatalog__items {
+		padding: 0;
+		margin: -75px 0 0 -34px;
+	}
+
+	.indexCatalog__item {
+		width: calc(33.33334% - 34px);
+		margin-left: 34px;
+		margin-top: 75px;
+	}
+}
+
+@media (max-width: 991px) {
+	.indexCatalog {
+		padding-bottom: 20px;
+		border-bottom: 1px solid #d2d7d9;
+		margin-bottom: 0;
+	}
+
+	.indexCatalog__items {
+		padding: 0;
+		margin: -15px 0 0 -15px;
+	}
+
+	.indexCatalog__item {
+		width: calc(50% - 15px);
+		margin-left: 15px;
+		margin-top: 15px;
+	}
+
+	.indexCatalogImg {
+		height: 270px;
+	}
+
+	.indexCatalogControl__btn {
+		width: 115px;
+	}
+
+	.indexCatalog__preview {
+		margin-bottom: 15px;
+	}
+
+	.indexCatalogInfo {
+		flex-direction: column;
+		margin-bottom: 15px;
+		margin-left: -20px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.indexCatalogInfo__col {
+		margin-left: 0;
+		margin-top: 5px;
+	}
+
+	.indexCatalogControl {
+		width: 230px;
+		margin: 0 auto;
+	}
+
+	.indexCatalogControl__btn {
+		width: 110px;
+	}
+}
+
+@media (max-width: 510px) {
+	.indexCatalog__items {
+		padding: 0;
+		margin: -25px 0 0 0;
+		justify-content: center;
+	}
+
+	.indexCatalog__item {
+		width: 270px;
+		margin-left: 0;
+		margin-top: 25px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+		border: 1px solid #f1f1f1;
+	}
+
+	.indexCatalogControl {
+		margin: 0 15px;
+	}
+
+	.indexCatalogImg {
+		height: 270px;
+	}
+
+	.indexCatalogControl__btn {
+		width: 110px;
+	}
+
+	.indexCatalogImg__items {
+		margin-left: 20px;
+	}
 }

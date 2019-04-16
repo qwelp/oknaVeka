@@ -1,4 +1,4 @@
-section.consultationForm
+section.consultationForm.stockForm
 	.container
 		.consultationFormWrapper
 			h2.consultationFormTitle.commonTitle Сделаем консультацию под заказ по любым размерам быстро
@@ -6,9 +6,19 @@ section.consultationForm
 				.consultationFormBody
 					.consultationFormBody__col
 						.consultationFormInput
-							input.consultationFormInput__text(type="text" name="consultation-name" placeholder="Ваше имя")
+							input.consultationFormInput__text.user(type="text" name="consultation-name" placeholder="Ваше имя")
 					.consultationFormBody__col
 						.consultationFormInput
-							input.consultationFormInput__text(type="text" name="consultation-phone" placeholder="Номер телефона")
+							input.consultationFormInput__text.phone.phoneValid(type="text" name="consultation-phone" placeholder="+7 (111) 111-11-11")
 					.consultationFormBody__col
 						button.consultationForm__btn Оставить заявку
+				.consultationFormPolity
+					.consultationFormPolity__col
+						label
+							.wSectionAppOptionsInput
+								input.wSectionAppOptionsInput__checkbox(type="checkbox" checked="checked" name=`wSectionAppOptionsInput-${i}`)
+								.wSectionAppOptionsInput__style
+					.consultationFormPolity__col
+						| Ознакомлен с
+						| "#[a.consultationFormPolity__link(href="#") Регламентом о защите персональных данных]"
+						| и выражаю согласие на их обработку

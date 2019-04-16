@@ -1,0 +1,20 @@
+section.wDetailPhoto
+	.container
+		h2.wDetailPhotoTitle.dTitle Фото пластиковых окон в исполнении Veka
+		.wDetailPhotoDesc.dDesc
+			| Своим клиентам компания «Окна Века» предлагает только лучшие пластиковые окна, включающие
+			| в себя: Профиль VEKA – металлопластиковый профиль, изготовленный из высококачественного
+			| экологичного пластика (ПВХ), устойчивого к влиянию внешней среды, элегантной и технически-продуманной
+			| до мельчайших деталей формы, шириной 58/70/90 мм.
+		ul.wDetailPhotoItems
+			each item in wDetailPhotoItems
+				li.wDetailPhotoItems__item
+					a.wDetailPhotoItems__link(href=`${item.img}`)
+						.wDetailPhotoItems__magnifier
+							.icon-magnifier
+						img.wDetailPhotoItems__img(src=`${item.img}` alt="")
+		.wDetailPhotoControl
+			a.wDetailPhotoControl__btn.dBtn.blue(href="#")
+				.wDetailPhotoControl__col.dBtn__col
+					.icon-calculator-white
+				.wDetailPhotoControl__col.dBtn__col Хочу такие

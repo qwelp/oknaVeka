@@ -16,6 +16,7 @@ html(lang="ru")
 
     link(href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet")
     link(href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet")
+    link(href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet")
     link(rel='stylesheet' href='/assets/css/foundation.css')
     link(rel='stylesheet' href='/assets/css/app.css')
 
@@ -24,6 +25,13 @@ html(lang="ru")
     <![endif]-->
 
   body
+    .menuHtml
+      input.menuHtml__active(type="checkbox")
+      ul.menuHtml__items
+        each item in menuHtml
+          li.menuHtml__item
+            a.menuHtml__link(href=`${item.url}`)=item.title
+    .menuMobileParanja
     .bodyWrapper
       include common/header
       include common/share

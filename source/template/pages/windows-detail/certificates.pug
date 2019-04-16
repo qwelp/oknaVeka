@@ -1,0 +1,14 @@
+section.wDetailCert
+	.container
+		h2.wDetailCertTitle.dTitle Покупайте окна только сертифицированного качества
+		.wDetailCertDesc.dDesc
+			| Каждое окно без исключения проходит сертификационную проверку. Система пвх соответствует всем санитарным
+			| нормам - безопасна, не горюча, не токсична. Конструкция профиля имеет необходимую по стандартам
+			| форму для поддержания благоприятного микроклимата в помещении
+		ul.wDetailCertItems
+			each item in wDetailCertItems
+				li.wDetailCertItems__item
+					a.wDetailCertItems__link(href=`${item.img}`)
+						.wDetailCertItems__magnifier
+							.icon-magnifier
+						img.wDetailCertItems__img(src=`${item.img}` alt="")

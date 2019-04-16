@@ -1,5 +1,5 @@
 .menuHorizontal
-	ul.menuHorizontal__items
+	ul.menuHorizontal__items(data-name="Разделы")
 		each section, i in menuHorizontal
 			li.menuHorizontal__item(class=(section.style === 'orange') ? 'orange' : '')(class=(i === 0) ? 'active' : '')
 				a.menuHorizontal__link(href="#")

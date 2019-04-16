@@ -1,0 +1,15 @@
+section.wSectionStep4
+	.container
+		h2.wSectionStep4Title.wSectionTitle #[strong Шаг 4] Выберите стеклопокет
+		.wSectionStep4__items
+			each item in wSectionStep4Items
+				.wSectionStep4__item
+					.wSectionStep4__title=item.title
+					.wSectionStep4Img
+						img.wSectionStep4__img(src=`${item.img}` alt="")
+					button.wSectionStep4__btn.dBtnWhiteBg Выбрать
+		.wSectionStep4Control
+			a.wSectionStep4Control__btn.dBtn.blue(href="#")
+				.wSectionStep4Control__col.dBtn__col
+					.icon-calculator-white
+				.wSectionStep4Control__col.dBtn__col Рассчитать

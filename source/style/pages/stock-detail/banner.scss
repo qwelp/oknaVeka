@@ -1,0 +1,26 @@
+.stockBanner {
+	margin-bottom: 40px;
+}
+
+.stockBannerImg {
+	margin-bottom: 48px;
+}
+
+.stockBannerImg__img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+.stockBanner__text {
+	font-size: 18px;
+	color: #333333;
+	text-align: center;
+	line-height: 30px;
+}
+
+@media (max-width: 768px) {
+	.stockBannerImg {
+		margin-bottom: 20px;
+	}
+}

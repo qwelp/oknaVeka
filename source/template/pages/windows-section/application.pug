@@ -1,0 +1,15 @@
+.wSectionApp
+	.container
+		h2.wSectionAppTitle
+			| Оставьте заявку прямо сейчас и сэкономти от #[span.wSectionAppTitle__summ 650] рублей!
+		.wSectionAppOptions
+			ul.wSectionAppOptions__items
+				each item, i in appFormOptions
+					li.wSectionAppOptions__item
+						.wSectionAppOptions__col
+							label
+								.wSectionAppOptionsInput
+									input.wSectionAppOptionsInput__checkbox(type="checkbox" name=`wSectionAppOptionsInput-${i}`)
+									.wSectionAppOptionsInput__style
+						.wSectionAppOptions__col !{item.title}
+		include ../windows-section/application-form

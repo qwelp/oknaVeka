@@ -4,7 +4,7 @@
 
 .consultationFormWrapper {
 	background: #d3dfe6 url("../img/index/application-bg.png") no-repeat 0 0;
-	height: 229px;
+	height: 254px;
 	padding: 10px 0 50px 0;
 	box-sizing: border-box;
 }
@@ -34,6 +34,7 @@
 	height: 50px;
 	display: flex;
 	align-items: center;
+	overflow: hidden;
 }
 
 .consultationFormInput__text {
@@ -41,8 +42,21 @@
 	line-height: 1.5;
 	color: rgb(137, 137, 137);
 	width: 100%;
-	padding: 0 20px;
+	padding: 0 20px 0 25px;
 	border: 0;
+	margin-left: 20px;
+
+	background-repeat: no-repeat;
+
+	&.user {
+		background-image: url("../img/user-line.png");
+		background-position: 0 1px;
+	}
+
+	&.phone {
+		background-image: url("../img/phone-line.png");
+		background-position: 0 3px;
+	}
 }
 
 .consultationForm__btn {
@@ -60,11 +74,91 @@
 	color: rgb(255, 255, 255);
 }
 
+.consultationFormPolity {
+	display: flex;
+	align-items: center;
+	margin: 25px 122px 0 122px;
+
+	& .wSectionAppOptionsInput {
+		position: relative;
+		top: -1px;
+	}
+}
 
 
+.consultationFormPolity__col {
+	font-size: 14px;
+	color: #333333;
+	line-height: 22px;
+}
 
+.consultationFormPolity__link {
+	color: #1875f0;
+}
 
+@media (max-width: 1170px) {
+	.consultationFormTitle {
+		margin-bottom: 25px;
+	}
+	.consultationFormBody {
+		margin: 0 30px;
+	}
+	.consultationFormWrapper {
+		height: 220px;
+		padding: 10px 0 0;
+	}
+}
 
+@media (max-width: 991px) {
+	.consultationForm {
+		margin-bottom: 0;
+	}
+
+	.consultationFormWrapper {
+		height: auto;
+		padding: 10px 0 20px 0;
+	}
+
+	.consultationFormTitle {
+		font-size: 22px;
+		line-height: 32px;
+		margin-bottom: 10px;
+		padding: 0;
+		margin-top: 0;
+	}
+
+	.consultationFormBody {
+		display: flex;
+		flex-direction: column;
+		margin: -10px 30px 0 30px;
+	}
+
+	.consultationFormBody__col {
+		margin-top: 10px;
+
+		&:not(:first-child) {
+			margin-left: 0;
+		}
+	}
+
+	.consultationFormInput {
+		width: 100%;
+		height: 50px;
+	}
+
+	.consultationForm__btn {
+		width: 100%;
+	}
+}
+
+@media (max-width: 500px) {
+	.consultationFormTitle {
+		font-size: 20px;
+		line-height: 26px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
 
 
 

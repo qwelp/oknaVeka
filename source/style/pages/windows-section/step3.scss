@@ -1,0 +1,138 @@
+.wSectionStep3 {
+	margin-bottom: 35px;
+}
+
+.wSectionStep3Title {
+	margin-bottom: 69px;
+}
+
+.wSectionStep3Size {
+	border: 1px solid #1875f0;
+	width: 1005px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	box-sizing: border-box;
+	padding: 70px 0;
+}
+
+.wSectionStep3SizeInput__wrap {
+	position: absolute;
+	background-color: white;
+	padding: 20px 49px 20px 23px;
+	margin-left: 23px;
+
+	&.top {
+		top: 0;
+		left: calc(50% - 23px);
+		transform: translate(-50%, -50%);
+	}
+
+	&.right {
+		top: 50%;
+		right: -13px;
+		transform: translate(+50%, -50%);
+	}
+
+	&:after {
+		content: attr(data-title);
+		display: block;
+		width: 20px;
+		height: 20px;
+		color: #898989;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right: 17px;
+	}
+}
+
+.wSectionStep3SizeInput {
+	border: 1px solid #c4cfd6;
+	width: 75px;
+	height: 50px;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	box-sizing: border-box;
+	box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+	z-index: 100;
+}
+
+.wSectionStep3SizeInput__text {
+	font-size: 16px;
+	color: #898989;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	border: 0;
+}
+
+.wSectionStep3SizeImg {
+
+}
+
+.wSectionStep3SizeImg__img {
+	vertical-align: middle;
+}
+
+
+@media (max-width: 1170px) {
+	.wSectionStep3Size {
+		width: 90%;
+	}
+}
+
+@media (max-width: 860px) {
+	.wSectionStep3SizeImg {
+		text-align: center;
+	}
+
+	.wSectionStep3SizeImg__img {
+		max-width: 80%;
+	}
+
+	.wSectionStep3Size {
+		width: 80%;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.wSectionStep3Size {
+		width: 80%;
+	}
+
+	.wSectionStep3SizeImg__img {
+		max-width: 60%;
+	}
+
+	.wSectionStep3SizeInput__wrap {
+		position: absolute;
+		background-color: white;
+		padding: 20px 49px 20px 23px;
+		margin-left: 23px;
+
+		&.right {
+
+			padding-left: 5px;
+			right: 0;
+			padding-right: 5px;
+
+			&:after {
+				top: calc(100% - 10px);
+				transform: translate(-50%, -50%);
+				right: inherit;
+				left: 50%;
+			}
+		}
+	}
+}
+
+@media (max-width: 450px) {
+
+}

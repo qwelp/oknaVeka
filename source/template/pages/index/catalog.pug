@@ -8,29 +8,4 @@ section.indexCatalog
 				| особенности же реализация намеченных плановых заданий способствует подготовки и реализации новых
 				| предложений. Не следует, однако забывать, что рамки и место обучения кадров представляет собой интересный
 				| эксперимент проверки соответствующий условий активизации.
-			ul.indexCatalog__items
-				each item in indexCatlog
-					li.indexCatalog__item
-						.indexCatalog__title Окна немецкие
-						.indexCatalogInfo
-							.indexCatalogInfo__col
-								.indexCatalogInfo__sale от 2 100 ₽ /m2
-							.indexCatalogInfo__col
-								.indexCatalogInfo__price от #[span.indexCatalogInfo__price-summ 1 400 ₽] /m2
-						.indexCatalogImg
-							img.indexCatalog__img(src=`${item.img}` alt="")
-							.indexCatalogImg__items
-								.indexCatalogImg__bg
-									svg(xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', viewBox="0 0 115 146" width='115px', height='146px')
-										path(fill-rule='evenodd', stroke='rgb(255, 255, 255)', stroke-width='2px', stroke-linecap='butt', stroke-linejoin='miter', fill='none', d='M103.000,143.999 L1.000,143.999 L1.000,0.999 L103.000,0.999 L113.000,72.000 L103.000,143.999 Z')
-								.indexCatalogImg__item Rehau
-								.indexCatalogImg__item KBE
-								.indexCatalogImg__item Salamander
-								.indexCatalogImg__item Veka
-								.indexCatalogImg__item Trocal
-						.indexCatalog__preview Ледирующие положение среди производителей светопрозрачных конструкций
-						.indexCatalogControl
-							.indexCatalogControl__col
-								button.indexCatalogControl__btn.commonBtn.blue Расчитать
-							.indexCatalogControl__col
-								button.indexCatalogControl__btn.commonBtn Подробнее
+			include catalog_items

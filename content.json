@@ -1804,23 +1804,23 @@
   ],
   "indexInfo" : [
     {
-      "title": "Ледирующие положение<br>среди производителей<br>светопрозрачных конструкций",
+      "title": "Ледирующие положение среди производителей светопрозрачных конструкций",
       "img" : "info-1"
     },
     {
-      "title": "Безупречное качество<br>ПВХ-профеля ведущих<br>производителей",
+      "title": "Безупречное качество ПВХ-профеля ведущих<br>производителей",
       "img" : "info-4"
     },
     {
-      "title": "Уникальный производственный<br>комплекс с передовым<br>оборудованием",
+      "title": "Уникальный производственный комплекс с передовым<br>оборудованием",
       "img" : "info-2"
     },
     {
-      "title": "Фурнитура высокого<br>качества в каждое<br>окно ПВХ",
+      "title": "Фурнитура высокого<br>качества в каждое окно ПВХ",
       "img" : "info-5"
     },
     {
-      "title": "Работа с крупнейшими<br>европейскими компаниями -<br>производителям ",
+      "title": "Работа с крупнейшими европейскими компаниями - производителям ",
       "img" : "info-3"
     },
     {
@@ -1852,12 +1852,12 @@
   ],
   "indexAdvantages" : [
     {
-      "title": "Выберите  продукт",
+      "title": "Выберите<br>продукт",
       "icon": "advantages-1",
       "text": "Защита от солнца из нашего широкого ассортимента."
     },
     {
-      "title": "Собственное  производство",
+      "title": "Собственное<br>производство",
       "icon": "advantages-2",
       "text": "Окна и двери выполнены из качественных профилей от производителя."
     },
@@ -1867,17 +1867,17 @@
       "text": "Непревзойденное соотношение цены и качества."
     },
     {
-      "title": "Интернет- конфигуратор",
+      "title": "Интернет-<br>конфигуратор",
       "icon": "advantages-4",
       "text": "Необязательное предложение может быть создано сразу в четыре этапа."
     },
     {
-      "title": "Политика  конфиденциальности",
+      "title": "Политика<br>конфиденциальности",
       "icon": "advantages-5",
       "text": "Четко рассчитанные затраты и непревзойденное соотношение цены и качества."
     },
     {
-      "title": "Безопасная  доставка",
+      "title": "Безопасная<br>доставка",
       "icon": "advantages-6",
       "text": "Короткие сроки доставки - дешевая и профессиональная"
     }
@@ -1923,5 +1923,507 @@
     {
       "img": "assets/img/index/news-4.png"
     }
+  ],
+  "windowsItem": [
+    {
+      "title": "(900мм x 1 400мм)",
+      "img": "assets/img/windows-detail/window-item-1.png"
+    },
+    {
+      "title": "(900мм x 1 400мм)",
+      "img": "assets/img/windows-detail/window-item-2.png"
+    },
+    {
+      "title": "(900мм x 1 400мм)",
+      "img": "assets/img/windows-detail/window-item-3.png"
+    },
+    {
+      "title": "(2 100мм x 1 400мм)",
+      "img": "assets/img/windows-detail/window-item-4.png"
+    },
+    {
+      "title": "(2 100мм x 1 400мм)",
+      "img": "assets/img/windows-detail/window-item-5.png"
+    },
+    {
+      "title": "(2 100мм x 1 400мм)",
+      "img": "assets/img/windows-detail/window-item-6.png"
+    }
+  ],
+  "wDetailSillsItems": [
+    {
+      "title" : "Danke / Данке",
+      "img" : "assets/img/windows-detail/window-detail-sills-1.png",
+      "price" : "2 450",
+      "old" : "1 800"
+    },
+    {
+      "title" : "Moller/Меллер",
+      "img" : "assets/img/windows-detail/window-detail-sills-2.png",
+      "price" : "3 680",
+      "old" : "3100"
+    },
+    {
+      "title" : "Искуственый камень",
+      "img" : "assets/img/windows-detail/window-detail-sills-3.png",
+      "price" : "2450",
+      "old" : "1 800"
+    },
+    {
+      "title" : "Натуральный камень",
+      "img" : "assets/img/windows-detail/window-detail-sills-4.png",
+      "price" : "2 390",
+      "old" : "1 900"
+    }
+  ],
+  "wDetailSeries": [
+    {
+      "title" : "606 серия",
+      "img" : "assets/img/windows-detail/series-1.png"
+    },
+    {
+      "title" : "Брежневки",
+      "img" : "assets/img/windows-detail/series-2.png"
+    },
+    {
+      "title" : "Панельные дома",
+      "img" : "assets/img/windows-detail/series-3.png"
+    },
+    {
+      "title" : "Сталенские дома",
+      "img" : "assets/img/windows-detail/series-4.png"
+    },
+    {
+      "title" : "Кирпичные дома",
+      "img" : "assets/img/windows-detail/series-5.png"
+    }
+  ],
+  "wDetailPhotoItems" : [
+    {
+      "img" : "assets/img/windows-detail/photo-1.png"
+    },
+    {
+      "img" : "assets/img/windows-detail/photo-2.png"
+    },
+    {
+      "img" : "assets/img/windows-detail/photo-3.png"
+    },
+    {
+      "img" : "assets/img/windows-detail/photo-4.png"
+    },
+    {
+      "img" : "assets/img/windows-detail/photo-5.png"
+    },
+    {
+      "img" : "assets/img/windows-detail/photo-6.png"
+    },
+    {
+      "img" : "assets/img/windows-detail/photo-7.png"
+    },
+    {
+      "img" : "assets/img/windows-detail/photo-8.png"
+    }
+  ],
+  "wDetailCertItems" : [
+    {
+      "img" : "assets/img/windows-detail/cert-1.png"
+    },
+    {
+      "img" : "assets/img/windows-detail/cert-2.png"
+    },
+    {
+      "img" : "assets/img/windows-detail/cert-1.png"
+    },
+    {
+      "img" : "assets/img/windows-detail/cert-2.png"
+    }
+  ],
+  "wSectionStep4Items" : [
+    {
+      "title" : "Энергосберегающие",
+      "img" : "assets/img/windows-section/glass-1.png"
+    },
+    {
+      "title" : "Солнцезащитный",
+      "img" : "assets/img/windows-section/glass-2.png"
+    },
+    {
+      "title" : "Шумозащитный",
+      "img" : "assets/img/windows-section/glass-3.png"
+    },
+    {
+      "title" : "Огнестойкие",
+      "img" : "assets/img/windows-section/glass-4.png"
+    },
+    {
+      "title" : "Мультифункциональный",
+      "img" : "assets/img/windows-section/glass-5.png"
+    },
+    {
+      "title" : "Ударостойкие",
+      "img" : "assets/img/windows-section/glass-6.png"
+    },
+    {
+      "title" : "Тонировка в массе",
+      "img" : "assets/img/windows-section/glass-7.png"
+    },
+    {
+      "title" : "Самоочищающийся",
+      "img" : "assets/img/windows-section/glass-8.png"
+    }
+  ],
+  "wSectionStep5Items" : [
+    {
+      "title" : "Подоконники",
+      "text" : "(Danke, Moller, натуральный камень)",
+      "img" : "assets/img/windows-section/advanced-setting-1.png"
+    },
+    {
+      "title" : "Отливы",
+      "text" : "(оцинкованные)",
+      "img" : "assets/img/windows-section/advanced-setting-2.png"
+    },
+    {
+      "title" : "Откосы",
+      "text" : "(ПВХ, гипсокартон, штукатурка)",
+      "img" : "assets/img/windows-section/advanced-setting-3.png"
+    },
+    {
+      "title" : "москитные сетки",
+      "text" : "(оцинкованные)",
+      "img" : "assets/img/windows-section/advanced-setting-4.png"
+    }
+  ],
+  "wSectionStep6Items" : [
+    {
+      "img" : "assets/img/windows-section/layout-1.png"
+    },
+    {
+      "img" : "assets/img/windows-section/layout-2.png"
+    },
+    {
+      "img" : "assets/img/windows-section/layout-3.png"
+    },
+    {
+      "img" : "assets/img/windows-section/layout-4.png"
+    }
+  ],
+  "appFormOptions" : [
+    {
+      "title" : "Москитная сетка в подарок"
+    },
+    {
+      "title" : "Скидки льготным категориям граждан"
+    },
+    {
+      "title" : "Бесплатная установка!<br>При заказе остекления всей квартиры, каждое 3 окно установим в бесплатно"
+    },
+    {
+      "title" : "Бесплатная доставка! По Санкт-Петербургу и ЛО в пределах 20 км. от КАД"
+    }
+  ],
+  "wSectionWinForm" : [
+    {
+      "title" : "Круглые ",
+      "old" : "1 570",
+      "price" : "950",
+      "img" : "assets/img/windows-section/form-1.png"
+    },
+    {
+      "title" : "Арочные",
+      "old" : "2 450",
+      "price" : "1 800",
+      "img" : "assets/img/windows-section/form-2.png"
+    },
+    {
+      "title" : "Трапецевидные",
+      "old" : "2 450",
+      "price" : "1 800",
+      "img" : "assets/img/windows-section/form-3.png"
+    },
+    {
+      "title" : "Треугольные",
+      "old" : "1 810",
+      "price" : "1 340",
+      "img" : "assets/img/windows-section/form-4.png"
+    }
+  ],
+  "step2_Windows" : [
+    {
+      "img": "assets/img/windows-detail/window-detail-rec.png"
+    },
+    {
+      "img": "assets/img/windows-detail/window-detail-rec.png"
+    },
+    {
+      "img": "assets/img/windows-detail/window-detail-rec.png"
+    }
+  ],
+  "step2_Light" : [
+    {
+      "img": "assets/img/calc-light/item.png"
+    },
+    {
+      "img": "assets/img/calc-light/item.png"
+    },
+    {
+      "img": "assets/img/calc-light/item.png"
+    },
+    {
+      "img": "assets/img/calc-light/item.png"
+    },
+    {
+      "img": "assets/img/calc-light/item.png"
+    },
+    {
+      "img": "assets/img/calc-light/item.png"
+    }
+  ],
+  "step2_Pvh" : [
+    {
+      "img": "assets/img/calc-pvh/item.png"
+    },
+    {
+      "img": "assets/img/calc-pvh/item.png"
+    },
+    {
+      "img": "assets/img/calc-pvh/item.png"
+    },
+    {
+      "img": "assets/img/calc-pvh/item.png"
+    },
+    {
+      "img": "assets/img/calc-pvh/item.png"
+    },
+    {
+      "img": "assets/img/calc-pvh/item.png"
+    }
+  ],
+  "aluminumInfo" : [
+    {
+      "title" : "Современный склад",
+      "img" : "assets/img/aluminum-windows/info-1.png"
+    },
+    {
+      "title" : "Немецкая линия",
+      "img" : "assets/img/aluminum-windows/info-2.png"
+    },
+    {
+      "title" : "Профессионалы",
+      "img" : "assets/img/aluminum-windows/info-3.png"
+    },
+    {
+      "title" : "Доставка с гарантией",
+      "img" : "assets/img/aluminum-windows/info-4.png"
+    },
+    {
+      "title" : "Современный склад",
+      "img" : "assets/img/aluminum-windows/info-1.png"
+    },
+    {
+      "title" : "Немецкая линия",
+      "img" : "assets/img/aluminum-windows/info-2.png"
+    },
+    {
+      "title" : "Профессионалы",
+      "img" : "assets/img/aluminum-windows/info-3.png"
+    },
+    {
+      "title" : "Доставка с гарантией",
+      "img" : "assets/img/aluminum-windows/info-4.png"
+    }
+  ],
+  "menuHtml" : [
+    {
+      "title": "Главная",
+      "url": "/index.html"
+    },
+    {
+      "title": "Деревянные окна детально",
+      "url": "/windows-detail.html"
+    },
+    {
+      "title": "Деревянные окна раздел",
+      "url": "/win-section.html"
+    },
+    {
+      "title": "Акции",
+      "url": "/stock.html"
+    },
+    {
+      "title": "Акции детально",
+      "url": "/stock-detail.html"
+    },
+    {
+      "title": "Калькулятор по дереву",
+      "url": "/calc-tree.html"
+    },
+    {
+      "title": "Калькулятор ПВХ",
+      "url": "/calc-pvh.html"
+    },
+    {
+      "title": "Калькулятор остекление",
+      "url": "/calc-light.html"
+    },
+    {
+      "title": "Алюминиевые окна",
+      "url": "/aluminum-windows.html"
+    },
+    {
+      "title": "Каталог Раздел",
+      "url": "/catalogSection.html"
+    },
+    {
+      "title": "Контакты",
+      "url": "/contact.html"
+    },
+    {
+      "title": "Сервисы",
+      "url": "/services.html"
+    },
+    {
+      "title": "О нас",
+      "url": "/about.html"
+    }
+  ],
+  "contactDepartment" : [
+    {
+      "title": "Отдел доставки",
+      "icon" : "contact-1"
+    },
+    {
+      "title": "Отдел монтажа",
+      "icon" : "contact-2"
+    },
+    {
+      "title": "Отдел дилеров",
+      "icon" : "contact-3"
+    },
+    {
+      "title": "Отдел гарантии",
+      "icon" : "contact-4"
+    },
+    {
+      "title": "Письмо директору",
+      "icon" : "contact-6"
+    }
+  ],
+  "contactInstallers" : [
+    {
+      "title": "Александр Петрович",
+      "photo": "assets/img/contact/user-1.png",
+      "prof": "Монтажник окон"
+    },
+    {
+      "title": "Дмитрий Игорьевич",
+      "photo": "assets/img/contact/user-2.png",
+      "prof": "Монтажник остекления"
+    },
+    {
+      "title": "Александр Петрович",
+      "photo": "assets/img/contact/user-3.png",
+      "prof": "Монтажник окон"
+    },
+    {
+      "title": "Дмитрий Игорьевич",
+      "photo": "assets/img/contact/user-2.png",
+      "prof": "Монтажник балконов"
+    },
+    {
+      "title": "Александр Петрович",
+      "photo": "assets/img/contact/user-1.png",
+      "prof": "Монтажник отделки"
+    }
+  ],
+  "contactRequisites" : [
+    {
+      "title": "Название компании",
+      "text": "«ОКНА ВЕКА»",
+      "icon": "contact-7"
+    },
+    {
+      "title": "ИНН",
+      "text": "7720391777",
+      "icon": "contact-8"
+    },
+    {
+      "title": "КПП",
+      "text": "772000000",
+      "icon": "contact-8"
+    },
+    {
+      "title": "Юридический адрес",
+      "text": "г. Санкт-Петербург, дер. Новое Девяткино, ул.Школьная д.15",
+      "icon": "contact-9"
+    }, {
+      "title": "Почтовый адрес",
+      "text": "г. Санкт-Петербург, дер. Новое Девяткино, ул.Школьная д.15",
+      "icon": "contact-10"
+    }
+  ],
+  "aboutPrizes" : [
+    {
+      "title" : "Премия «Экологическая безопасность» 2013",
+      "img" : "assets/img/about/item-1.png"
+    },
+    {
+      "title" : "Победитель опроса «Компания года» 2014",
+      "img" : "assets/img/about/item-2.png"
+    },
+    {
+      "title" : "Победитель опроса «Компания года» 2015",
+      "img" : "assets/img/about/item-3.png"
+    },
+    {
+      "title" : "Премия «Надежный партнер» 2016",
+      "img" : "assets/img/about/item-4.png"
+    },
+    {
+      "title" : "Премия «Экологическая безопасность» 2013",
+      "img" : "assets/img/about/item-5.png"
+    },
+    {
+      "title" : "Победитель опроса «Компания года» 2014",
+      "img" : "assets/img/about/item-6.png"
+    },
+    {
+      "title" : "Победитель опроса «Компания года» 2015",
+      "img" : "assets/img/about/item-7.png"
+    },
+    {
+      "title" : "Премия «Надежный партнер» 2016",
+      "img" : "assets/img/about/item-8.png"
+    }
+  ],
+  "aboutAdvantage" : [
+    {
+      "title": "Без посредников",
+      "icon" : "about-1"
+    },
+    {
+      "title": "Выбор из множества  решений",
+      "icon" : "about-2"
+    },
+    {
+      "title": "Партнер №1 в Москве",
+      "icon" : "about-3"
+    },
+    {
+      "title": "Нестандартные решения",
+      "icon" : "about-4"
+    },
+    {
+      "title": "Гарантия качества",
+      "icon" : "about-5"
+    },
+    {
+      "title": "Доступность",
+      "icon" : "about-6"
+    }
   ]
 }
+
+
+
+

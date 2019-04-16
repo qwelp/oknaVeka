@@ -2,7 +2,7 @@
 	a.menuVerticalTitle.commonCenter(href="#")
 		| Каталог
 		.icon-arrow-down
-	ul.menuVertical__items.active
+	ul.menuVertical__items(data-name="Каталог")(class=(page === 'index') ? 'active' : 'pos')
 		each section, i in menuVertical
 			li.menuVertical__item
 				a.menuVertical__link(href="#")

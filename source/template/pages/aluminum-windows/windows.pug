@@ -1,0 +1,13 @@
+.ctWindows.alWindows
+	.container
+		.ctWindows__items
+			each item in [1,2,3]
+				.ctWindows__item
+					.ctWindows__title Окна немецкие
+					.ctWindowsImg
+						img.ctWindows__img(src=`assets/img/calc-tree/calc-tree-window-${item}.png` alt="")
+					.wSectionStep4Control.alWindowsControl
+						a.wSectionStep4Control__btn.dBtn.blue.alWindowsControlBtn(href="#")
+							.wSectionStep4Control__col.dBtn__col.alWindowsControl__col
+								.icon-calculator-white
+							.wSectionStep4Control__col.dBtn__col.alWindowsControl__col Рассчитать

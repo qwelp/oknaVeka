@@ -1,0 +1,21 @@
+.wSectionPreview {
+	margin-top: -25px;
+}
+
+.wSectionPreviewTitle {
+	line-height: 37px;
+}
+
+.wSectionPreviewDesc {
+	margin-bottom: 27px;
+}
+
+@media (max-width: 768px) {
+	.wSectionPreview {
+		margin-top: 0;
+	}
+
+	.wSectionPreviewTitle {
+		line-height: 25px;
+	}
+}

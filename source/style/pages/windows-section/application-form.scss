@@ -1,0 +1,67 @@
+.wSectionAppForm {
+	border-radius: 4px;
+	overflow: hidden;
+
+	& .consultationFormWrapper {
+		background: #d3dfe6 url(../img/index/application-bg.png) no-repeat 0 0;
+		height: 130px;
+		padding: 0;
+		box-sizing: border-box;
+		display: flex;
+		align-items: center;
+	}
+
+	& .consultationFormBody {
+
+	}
+
+	& .consultationFormBody__col {
+
+	}
+}
+
+@media (max-width: 991px) {
+	.wSectionAppForm {
+
+		& .consultationFormBody {
+			flex-direction: row;
+			margin-left: 0;
+		}
+
+		& .consultationFormBody__col {
+			margin-left: 20px;
+		}
+
+		& .consultationForm__btn {
+			line-height: 18px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.wSectionAppForm {
+
+		& .consultationFormWrapper {
+			height: auto;
+			padding: 20px 0;
+			display: block;
+		}
+
+		& .consultationFormBody {
+			flex-direction: column;
+			margin: auto;
+			width: 100%;
+			display: flex;
+			box-sizing: border-box;
+			padding: 0 20px;
+		}
+
+		& .consultationFormBody__col {
+			margin-left: 0;
+		}
+
+		& .consultationForm__btn {
+			line-height: 18px;
+		}
+	}
+}

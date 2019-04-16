@@ -100,8 +100,71 @@
 	line-height: 1.2;
 }
 
+@media (max-width: 1170px) {
+	.indexOrderingPreview {
+		position: relative;
+		width: 500px;
+		height: 257px;
+	}
 
+	.indexOrderingList__items {
+		list-style-type: none;
+		margin: -20px 0 0;
+		padding: 0;
+	}
 
+	.indexOrderingList__item {
+		display: -ms-flexbox;
+		display: flex;
+		margin-top: 40px;
+	}
+
+	.indexOrdering {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 991px) {
+	.indexOrdering {
+		margin-bottom: 20px;
+	}
+
+	.indexOrderingTitle {
+		font-size: 26px;
+		letter-spacing: -2px;
+		margin-bottom: 10px;
+		line-height: 28px;
+	}
+
+	.indexOrderingDesc {
+		line-height: 22px;
+		margin-bottom: 20px;
+	}
+
+	.indexOrderingBody {
+		flex-direction: column;
+		margin-top: -20px;
+	}
+
+	.indexOrderingBody__col {
+		margin-top: 20px;
+	}
+
+	.indexOrderingBody__col:last-child {
+		padding-left: 0;
+	}
+
+	.indexOrderingPreview {
+		position: relative;
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+	.indexOrderingPreview__link {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
 
 
 

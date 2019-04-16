@@ -1,0 +1,14 @@
+extends ../_template
+
+block variables
+	- var title = 'Каталог Раздел'
+	- var info = 3;
+
+block content
+	include ../common/MenuCommonBlock_inner
+	include stock/preview
+	include catalogSection/form
+	include catalogSection/items
+	include index/consultationForm
+	include windows-section/description
+	include index/ordering

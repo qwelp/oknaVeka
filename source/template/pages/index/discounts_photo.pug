@@ -1,0 +1,8 @@
+ul.indexDiscounts__items
+	each item in indexDiscounts
+		li.indexDiscounts__item
+			img.indexDiscounts__img(src=`${item.img}` alt="")
+			.indexDiscountsPos
+				.indexDiscounts__title Скидка 50%
+				.indexDiscounts__text Скидка суммируется
+			a.indexDiscounts__link(href="#") Подробнее

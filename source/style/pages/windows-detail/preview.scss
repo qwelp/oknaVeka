@@ -1,0 +1,101 @@
+.wDetailPrev {
+	margin-bottom: 15px;
+}
+
+.wDetailPrevTitle {
+	margin-top: -25px;
+	padding-top: 0;
+	margin-bottom: 30px;
+}
+
+.wDetailPrevDesc {
+
+}
+
+.wDetailPrevBanner {
+	height: 106px;
+	background: #e3d9c8 url("../img/windows-detail/banner.png") no-repeat right 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+
+	&:before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 688px;
+		content: '';
+		display: block;
+		background: #34a853;
+	}
+
+	&:after {
+		position: absolute;
+		top: 0;
+		left: 688px;
+		height: 100%;
+		width: 24px;
+		content: '';
+		display: block;
+		background: url("../img/banner-preview-detail-arrow.png") no-repeat 0 0;
+	}
+}
+
+.wDetailPrevBanner__wrap {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 35px;
+}
+
+.wDetailPrevBanner__title {
+	color: #ffffff;
+	line-height: 1.12;
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.wDetailPrevBanner__text {
+	font-size: 14px;
+	color: rgba(#ffffff, 0.502);
+}
+
+@media (max-width: 1170px) {
+	.wDetailPrevTitle {
+		margin-top: 0;
+	}
+}
+@media (max-width: 991px) {
+	.wDetailPrevBanner {
+		height: inherit;
+		background: #34a853;
+
+		&:before {
+			display: none;
+		}
+
+		&:after {
+			display: none;
+		}
+	}
+
+	.wDetailPrevBanner__wrap {
+		position: relative;
+		transform: none;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		left: 0;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.wDetailPrevBanner__title {
+		font-size: 16px;
+		line-height: 22px;
+	}
+}

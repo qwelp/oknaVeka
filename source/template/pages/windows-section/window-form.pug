@@ -1,0 +1,24 @@
+section.wSectionWinForm
+	.container
+		h2.wSectionWinFormTitle.dTitle Вам доступны нестандартные<br>формы оконных конструкций Века
+		.wSectionWinFormDesc.dDesc
+			| Своим клиентам компания «Окна Века» предлагает только лучшие пластиковые окна, включающие
+			| в себя: Профиль VEKA – металлопластиковый профиль, изготовленный из высококачественного экологичного
+			| пластика (ПВХ), устойчивого к влиянию внешней среды, элегантной и технически-продуманной до мельчайших
+			| деталей формы, шириной 58/70/90 мм.
+		.wSectionWinForm__items
+			each item in wSectionWinForm
+				.wSectionWinForm__item
+					.wSectionWinForm__title=item.title
+					.wSectionWinFormPrice
+						.wSectionWinFormPrice__col
+							.wSectionWinFormPrice__old.commonPrice__old  от #[span.wSectionWinFormPrice__old-int !{item.old} ₽] /m2
+						.wSectionWinFormPrice__col
+							.wSectionWinFormPrice__summ.commonPrice__summ  от #[span.wSectionWinFormPrice__summ-int !{item.price} ₽] /m2
+					.wSectionWinFormImg
+						img.wSectionWinFormPrice__img(src=`${item.img}` alt="")
+		.wSectionWinFormControl
+			a.wSectionWinFormControl__btn.dBtn.blue(href="#")
+				.wSectionWinFormControl__col.dBtn__col
+					.icon-calculator-white
+				.wSectionWinFormControl__col.dBtn__col Рассчитать

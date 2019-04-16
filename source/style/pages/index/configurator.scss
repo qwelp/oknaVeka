@@ -12,7 +12,7 @@
 	flex: 1;
 
 	&:nth-child(1) {
-		background: url("../img/index/configurator-bg.png") no-repeat 3px -25px;
+		position: relative;
 	}
 
 	&:nth-child(2) {
@@ -20,6 +20,15 @@
 	}
 
 	padding-bottom: 40px;
+}
+
+.indexConfigurator__bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../img/index/configurator-bg.png") no-repeat center 36px;
 }
 
 .indexConfiguratorBody {
@@ -128,11 +137,117 @@
 	margin-left: -30px;
 }
 
+@media (max-width: 1170px) {
 
+	.indexConfiguratorTitle {
+		margin: 0 auto;
+		position: relative;
+		display: inline-flex;
+		left: 50%;
+		transform: translateX(-50%);
+	}
 
+	.indexConfiguratorTitle_h2 {
+		display: inline-block;
+		font-size: 26px;
+		letter-spacing: -.1px;
+		font-weight: 400;
+	}
 
+	.indexConfiguratorDesc {
+		font-size: 16px;
+		margin-bottom: 30px;
+		margin-left: 0;
+		text-align: center;
+	}
 
+	.indexConfiguratorBody {
+		position: relative;
+		top: -50px;
+	}
 
+	.indexConfigurator__col {
+
+		&:first-child {
+			display: none;
+		}
+
+		&:last-child {
+			position: relative;
+			top: 20px;
+		}
+	}
+
+	.indexConfiguratorWrapeer {
+		border-bottom: 0;
+		margin-bottom: -50px;
+	}
+
+	.indexConfigurator__items {
+		margin-bottom: 50px;
+	}
+
+	.indexConfigurator {
+		padding-bottom: 50px;
+	}
+
+	.indexConfigurator__btn {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 991px) {
+	.indexConfigurator {
+		padding: 0 0 20px 0;
+	}
+
+	.indexConfigurator__items {
+		margin-bottom: 20px;
+		margin-left: -25px;
+	}
+
+	.indexConfigurator__item {
+		&:nth-child(2n) {
+			margin-left: 0;
+			padding-left: 15px;
+			width: 50%;
+			background: url("../img/configurator-arrow-right.png") no-repeat 0 5px;
+		}
+	}
+}
+
+@media (max-width: 510px) {
+	.indexConfigurator__items {
+		margin-bottom: 20px;
+		margin-left: 0;
+	}
+
+	.indexConfigurator__item {
+		width: 100%;
+		margin-top: 18px;
+		line-height: 16px;
+		margin-left: 0;
+	}
+
+	.indexConfigurator__item:nth-child(2n) {
+		margin-left: 0;
+		padding-left: 0;
+		width: 100%;
+		background: none;
+	}
+
+	.indexConfigurator__btn {
+		width: 100%;
+	}
+
+	.icon-configurator-title {
+		margin-right: 5px;
+	}
+
+	.indexConfiguratorTitle_h2 {
+		font-size: 20px;
+	}
+}
 
 
 

@@ -86,3 +86,23 @@
 	font-size: 14px;
 	color: rgba(255, 255, 255, 0.502);
 }
+
+@media (max-width: 991px) {
+	.footerWrap {
+		flex-direction: column;
+		margin-top: -20px;
+	}
+
+	.footer__col {
+		margin-top: 20px;
+	}
+
+	.footerList__title {
+		text-align: center;
+		margin-bottom: 5px;
+	}
+
+	.footerCopy {
+		text-align: center;
+	}
+}

@@ -1,0 +1,10 @@
+.ctWindows
+	.container
+		.ctWindows__items
+			each item in [1,2,3]
+				.ctWindows__item
+					.ctWindows__title Окна немецкие
+					.ctWindowsPrice.commonPrice__summ от #[span 1 400 ₽]/m2
+					.ctWindowsImg
+						img.ctWindows__img(src=`assets/img/calc-tree/calc-tree-window-${item}.png` alt="")
+					button.ctWindowsBtn.dBtnWhiteBg Выбрать

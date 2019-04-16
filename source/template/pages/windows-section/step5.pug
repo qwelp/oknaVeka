@@ -1,0 +1,27 @@
+section.wSectionStep5
+	.container
+		h2.wSectionStep5Title.wSectionTitle #[strong Шаг 5] Выберите дополнительные параметры
+		.wSectionStep5__items
+			each item in wSectionStep5Items
+				.wSectionStep5__item
+					.wSectionStep5__title=item.title
+					.wSectionStep5__text=item.text
+					.wSectionStep5Img
+						img.wSectionStep5__img(src=`${item.img}` alt="")
+					.wSectionStep5Control
+						.wSectionStep5Control__col
+							button.wSectionStep5__btn.dBtnWhiteBg Выбрать
+						.wSectionStep5Control__col
+							.wSectionStep5__price от #[span.wSectionStep5__summ 150 ₽] /m2
+			if step5 === 2
+				each item in wSectionStep5Items
+					.wSectionStep5__item
+						.wSectionStep5__title=item.title
+						.wSectionStep5__text=item.text
+						.wSectionStep5Img
+							img.wSectionStep5__img(src=`${item.img}` alt="")
+						.wSectionStep5Control
+							.wSectionStep5Control__col
+								button.wSectionStep5__btn.dBtnWhiteBg Выбрать
+							.wSectionStep5Control__col
+								.wSectionStep5__price от #[span.wSectionStep5__summ 150 ₽] /m2

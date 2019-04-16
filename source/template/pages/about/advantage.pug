@@ -1,0 +1,10 @@
+.aboutAdvantage
+	.container
+		h2.aboutAdvantageTitle.dTitle Наши преимущества
+		.aboutAdvantage__items
+			each item in aboutAdvantage
+				.aboutAdvantage__item
+					.aboutAdvantage__icon
+						div(class=`icon-${item.icon}`)
+					.aboutAdvantage__title=item.title
+					.aboutAdvantage__text Предлагаем качественные окна напрямую от производителя

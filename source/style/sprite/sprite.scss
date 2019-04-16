@@ -16,51 +16,87 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
+.icon-about-1 {
+  background-image: url(sprite.png);
+  background-position: -6206px 0px;
+  width: 52px;
+  height: 54px;
+}
+.icon-about-2 {
+  background-image: url(sprite.png);
+  background-position: -5966px 0px;
+  width: 50px;
+  height: 51px;
+}
+.icon-about-3 {
+  background-image: url(sprite.png);
+  background-position: -5846px 0px;
+  width: 50px;
+  height: 50px;
+}
+.icon-about-4 {
+  background-image: url(sprite.png);
+  background-position: -4934px 0px;
+  width: 40px;
+  height: 58px;
+}
+.icon-about-5 {
+  background-image: url(sprite.png);
+  background-position: -7213px 0px;
+  width: 60px;
+  height: 60px;
+}
+.icon-about-6 {
+  background-image: url(sprite.png);
+  background-position: -7083px 0px;
+  width: 60px;
+  height: 60px;
+}
 .icon-advantages-1 {
   background-image: url(sprite.png);
-  background-position: -4194px 0px;
+  background-position: -5267px 0px;
   width: 43px;
   height: 47px;
 }
 .icon-advantages-2 {
   background-image: url(sprite.png);
-  background-position: -4307px 0px;
+  background-position: -5493px 0px;
   width: 46px;
   height: 50px;
 }
 .icon-advantages-3 {
   background-image: url(sprite.png);
-  background-position: -3858px 0px;
+  background-position: -5044px 0px;
   width: 41px;
   height: 41px;
 }
 .icon-advantages-4 {
   background-image: url(sprite.png);
-  background-position: -4081px 0px;
+  background-position: -5380px 0px;
   width: 43px;
   height: 43px;
 }
 .icon-advantages-5 {
   background-image: url(sprite.png);
-  background-position: -3642px 0px;
+  background-position: -4718px 0px;
   width: 36px;
   height: 42px;
 }
 .icon-advantages-6 {
   background-image: url(sprite.png);
-  background-position: -5411px 0px;
+  background-position: -7605px 0px;
   width: 63px;
   height: 39px;
 }
 .icon-arrow-banner-left {
   background-image: url(sprite.png);
-  background-position: -413px 0px;
+  background-position: -677px 0px;
   width: 18px;
   height: 33px;
 }
 .icon-arrow-banner-right {
   background-image: url(sprite.png);
-  background-position: -237px 0px;
+  background-position: -765px 0px;
   width: 18px;
   height: 33px;
 }
@@ -84,265 +120,367 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-calculator-fill {
   background-image: url(sprite.png);
-  background-position: -589px 0px;
+  background-position: -941px 0px;
+  width: 18px;
+  height: 20px;
+}
+.icon-calculator-white {
+  background-image: url(sprite.png);
+  background-position: -413px 0px;
+  width: 18px;
+  height: 20px;
+}
+.icon-calculator {
+  background-image: url(sprite.png);
+  background-position: -237px 0px;
   width: 18px;
   height: 20px;
 }
 .icon-catalog-menu-1 {
   background-image: url(sprite.png);
-  background-position: -2941px 0px;
+  background-position: -3401px 0px;
   width: 28px;
   height: 28px;
 }
 .icon-catalog-menu-2 {
   background-image: url(sprite.png);
-  background-position: -1303px 0px;
+  background-position: -1662px 0px;
   width: 22px;
   height: 28px;
 }
 .icon-catalog-menu-3 {
   background-image: url(sprite.png);
-  background-position: -2059px 0px;
+  background-position: -2421px 0px;
   width: 28px;
   height: 28px;
 }
 .icon-catalog-menu-4 {
   background-image: url(sprite.png);
-  background-position: -2843px 0px;
+  background-position: -2519px 0px;
   width: 28px;
   height: 28px;
 }
 .icon-catalog-menu-5 {
   background-image: url(sprite.png);
-  background-position: -2353px 0px;
+  background-position: -2715px 0px;
   width: 28px;
   height: 29px;
 }
 .icon-catalog-menu-6 {
   background-image: url(sprite.png);
-  background-position: -1673px 0px;
+  background-position: -2035px 0px;
   width: 26px;
   height: 28px;
 }
 .icon-catalog-menu-7 {
   background-image: url(sprite.png);
-  background-position: -3137px 0px;
+  background-position: -3998px 0px;
   width: 30px;
   height: 26px;
 }
 .icon-catalog-menu-8 {
   background-image: url(sprite.png);
-  background-position: -325px 0px;
+  background-position: -501px 0px;
   width: 18px;
   height: 18px;
 }
 .icon-clock {
   background-image: url(sprite.png);
-  background-position: -3969px 0px;
+  background-position: -5155px 0px;
   width: 42px;
   height: 42px;
 }
 .icon-configurator-title {
   background-image: url(sprite.png);
-  background-position: -1579px 0px;
+  background-position: -1846px 0px;
   width: 24px;
   height: 26px;
 }
+.icon-contact-1 {
+  background-image: url(sprite.png);
+  background-position: -8015px 0px;
+  width: 84px;
+  height: 50px;
+}
+.icon-contact-10 {
+  background-image: url(sprite.png);
+  background-position: -4508px 0px;
+  width: 35px;
+  height: 25px;
+}
+.icon-contact-2 {
+  background-image: url(sprite.png);
+  background-position: -7343px 0px;
+  width: 60px;
+  height: 68px;
+}
+.icon-contact-3 {
+  background-image: url(sprite.png);
+  background-position: -7875px 0px;
+  width: 70px;
+  height: 77px;
+}
+.icon-contact-4 {
+  background-image: url(sprite.png);
+  background-position: -6451px 0px;
+  width: 54px;
+  height: 66px;
+}
+.icon-contact-6 {
+  background-image: url(sprite.png);
+  background-position: -7473px 0px;
+  width: 62px;
+  height: 64px;
+}
+.icon-contact-7 {
+  background-image: url(sprite.png);
+  background-position: -4098px 0px;
+  width: 30px;
+  height: 46px;
+}
+.icon-contact-8 {
+  background-image: url(sprite.png);
+  background-position: -3499px 0px;
+  width: 29px;
+  height: 39px;
+}
+.icon-contact-9 {
+  background-image: url(sprite.png);
+  background-position: -3598px 0px;
+  width: 30px;
+  height: 38px;
+}
 .icon-info-1 {
   background-image: url(sprite.png);
-  background-position: -5155px 0px;
+  background-position: -6827px 0px;
   width: 57px;
   height: 61px;
 }
 .icon-info-2 {
   background-image: url(sprite.png);
-  background-position: -4660px 0px;
+  background-position: -6086px 0px;
   width: 50px;
   height: 61px;
 }
 .icon-info-3 {
   background-image: url(sprite.png);
-  background-position: -5029px 0px;
+  background-position: -6701px 0px;
   width: 56px;
   height: 47px;
 }
 .icon-info-4 {
   background-image: url(sprite.png);
-  background-position: -4903px 0px;
+  background-position: -6575px 0px;
   width: 56px;
   height: 57px;
 }
 .icon-info-5 {
   background-image: url(sprite.png);
-  background-position: -5282px 0px;
+  background-position: -6954px 0px;
   width: 59px;
   height: 59px;
 }
 .icon-info-6 {
   background-image: url(sprite.png);
-  background-position: -4780px 0px;
+  background-position: -6328px 0px;
   width: 53px;
   height: 65px;
 }
 .icon-ins {
   background-image: url(sprite.png);
-  background-position: -1031px 0px;
+  background-position: -1207px 0px;
   width: 20px;
   height: 20px;
 }
+.icon-magnifier {
+  background-image: url(sprite.png);
+  background-position: -3898px 0px;
+  width: 30px;
+  height: 30px;
+}
 .icon-marker {
   background-image: url(sprite.png);
-  background-position: -3437px 0px;
+  background-position: -4198px 0px;
   width: 32px;
   height: 46px;
 }
 .icon-mastercart {
   background-image: url(sprite.png);
-  background-position: -3539px 0px;
+  background-position: -4300px 0px;
   width: 33px;
   height: 21px;
 }
 .icon-menu-curtains-hover {
   background-image: url(sprite.png);
-  background-position: -3039px 0px;
+  background-position: -3009px 0px;
   width: 28px;
   height: 29px;
 }
 .icon-menu-curtains {
   background-image: url(sprite.png);
-  background-position: -2745px 0px;
+  background-position: -2911px 0px;
   width: 28px;
   height: 29px;
 }
 .icon-menu-doors-hover {
   background-image: url(sprite.png);
-  background-position: -1395px 0px;
+  background-position: -1570px 0px;
   width: 22px;
   height: 28px;
 }
 .icon-menu-doors {
   background-image: url(sprite.png);
-  background-position: -1487px 0px;
+  background-position: -1754px 0px;
   width: 22px;
   height: 28px;
 }
 .icon-menu-grids-hover {
   background-image: url(sprite.png);
-  background-position: -1865px 0px;
+  background-position: -2131px 0px;
   width: 26px;
   height: 28px;
 }
 .icon-menu-grids {
   background-image: url(sprite.png);
-  background-position: -1769px 0px;
+  background-position: -2227px 0px;
   width: 26px;
   height: 28px;
 }
 .icon-menu-portals-hover {
   background-image: url(sprite.png);
-  background-position: -2451px 0px;
+  background-position: -3205px 0px;
   width: 28px;
   height: 28px;
 }
 .icon-menu-portals {
   background-image: url(sprite.png);
-  background-position: -1961px 0px;
+  background-position: -2813px 0px;
   width: 28px;
   height: 28px;
 }
 .icon-menu-sales-hover {
   background-image: url(sprite.png);
-  background-position: -677px 0px;
+  background-position: -853px 0px;
   width: 18px;
   height: 18px;
 }
 .icon-menu-sales {
   background-image: url(sprite.png);
-  background-position: -501px 0px;
+  background-position: -589px 0px;
   width: 18px;
   height: 18px;
 }
 .icon-menu-sills-hover {
   background-image: url(sprite.png);
-  background-position: -3237px 0px;
+  background-position: -3698px 0px;
   width: 30px;
   height: 26px;
 }
 .icon-menu-sills {
   background-image: url(sprite.png);
-  background-position: -3337px 0px;
+  background-position: -3798px 0px;
   width: 30px;
   height: 26px;
 }
 .icon-menu-windows-hover {
   background-image: url(sprite.png);
-  background-position: -2549px 0px;
+  background-position: -3303px 0px;
   width: 28px;
   height: 28px;
 }
 .icon-menu-windows {
   background-image: url(sprite.png);
-  background-position: -2647px 0px;
+  background-position: -3107px 0px;
   width: 28px;
   height: 28px;
 }
 .icon-menu-winter-garden-hover {
   background-image: url(sprite.png);
-  background-position: -2255px 0px;
+  background-position: -2323px 0px;
   width: 28px;
   height: 28px;
 }
 .icon-menu-winter-garden {
   background-image: url(sprite.png);
-  background-position: -2157px 0px;
+  background-position: -2617px 0px;
   width: 28px;
   height: 28px;
 }
 .icon-pencil-ruler-fill {
   background-image: url(sprite.png);
-  background-position: -765px 0px;
+  background-position: -325px 0px;
   width: 18px;
   height: 20px;
 }
 .icon-phone-call {
   background-image: url(sprite.png);
-  background-position: -3748px 0px;
+  background-position: -4824px 0px;
   width: 40px;
   height: 41px;
 }
 .icon-phone-fill {
   background-image: url(sprite.png);
-  background-position: -942px 0px;
+  background-position: -1029px 0px;
   width: 19px;
   height: 18px;
 }
+.icon-sound-no {
+  background-image: url(sprite.png);
+  background-position: -1388px 0px;
+  width: 21px;
+  height: 23px;
+}
+.icon-style {
+  background-image: url(sprite.png);
+  background-position: -1940px 0px;
+  width: 25px;
+  height: 25px;
+}
+.icon-sun {
+  background-image: url(sprite.png);
+  background-position: -4403px 0px;
+  width: 35px;
+  height: 35px;
+}
 .icon-telegramm {
   background-image: url(sprite.png);
-  background-position: -853px 0px;
+  background-position: -1118px 0px;
   width: 19px;
   height: 16px;
 }
 .icon-twitter {
   background-image: url(sprite.png);
-  background-position: -1121px 0px;
+  background-position: -1479px 0px;
   width: 21px;
   height: 17px;
 }
+.icon-type-active {
+  background-image: url(sprite.png);
+  background-position: -4613px 0px;
+  width: 35px;
+  height: 35px;
+}
+.icon-video-hover {
+  background-image: url(sprite.png);
+  background-position: -7738px 0px;
+  width: 67px;
+  height: 67px;
+}
 .icon-visa {
   background-image: url(sprite.png);
-  background-position: -4423px 0px;
+  background-position: -5609px 0px;
   width: 48px;
   height: 15px;
 }
 .icon-yandex-money {
   background-image: url(sprite.png);
-  background-position: -4541px 0px;
+  background-position: -5727px 0px;
   width: 49px;
   height: 17px;
 }
 .icon-youtube {
   background-image: url(sprite.png);
-  background-position: -1212px 0px;
+  background-position: -1297px 0px;
   width: 21px;
   height: 15px;
 }

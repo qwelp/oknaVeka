@@ -1,0 +1,20 @@
+section.wDetailSeries
+	.container
+		.wDetailSeriesTitle.dTitle Цены на окна Века в Москве – возможности для каждого
+		.wDetailSeriesDesc.dDesc
+			| Своим клиентам компания «Окна Века» предлагает только лучшие пластиковые окна, включающие
+			| в себя: Профиль VEKA – металлопластиковый профиль, изготовленный из высококачественного
+			| экологичного пластика (ПВХ), устойчивого к влиянию внешней среды, элегантной и технически-продуманной
+			| до мельчайших деталей формы, шириной 58/70/90 мм.
+		ul.wDetailSeriesItems
+			each item in wDetailSeries
+				li.wDetailSeriesItems__item
+					.wDetailSeriesItems__wrap
+						.wDetailSeriesItems__title=item.title
+						.wDetailSeriesImg
+							img.wDetailSeriesImg__img(src=`${item.img}` alt="")
+						.wDetailSeriesInfo
+							.wDetailSeriesInfo__col
+								a.wDetailSeries__company(href="#") Ivaper
+							.wDetailSeriesInfo__col
+								.wDetailSeries__price от #[span.wDetailSeries__summ 4 853 ₽]

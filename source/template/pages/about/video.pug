@@ -1,0 +1,10 @@
+.aboutVideo
+	.container
+		.aboutVideo__items
+			each item in [1,2]
+				a.aboutVideo__item(href="https://www.youtube.com/watch?v=A40FMbcrejQ")
+					.aboutVideo__hover
+						.aboutVideo__icon
+							.icon-video-hover
+					.aboutVideoImg
+						img.aboutVideo__img(src=`assets/img/about/video-${item}.png` alt="")

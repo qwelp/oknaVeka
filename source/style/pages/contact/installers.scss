@@ -1,0 +1,58 @@
+.contactInstallers {
+	margin-bottom: 40px;
+}
+
+.contactInstallersTitle {
+
+}
+
+.contactInstallers__items {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contactInstallers__item {
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+
+.contactInstallersImg {
+	margin-bottom: 25px;
+	position: relative;
+	cursor: pointer;
+
+	&:hover .wDetailCertItems__magnifier {
+		opacity: 1;
+	}
+}
+
+.contactInstallers__img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.contactInstallers__name {
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #333333;
+}
+
+.contactInstallers__prof {
+	font-size: 14px;
+	color: #333333;
+}
+
+@media (max-width: 1170px) {
+	.contactInstallers__items {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-left: -30px;
+		margin-top: -30px;
+	}
+
+	.contactInstallers__item {
+		margin-left: 30px;
+		margin-top: 30px;
+	}
+}

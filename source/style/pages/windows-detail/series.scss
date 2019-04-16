@@ -1,0 +1,105 @@
+.wDetailSeries {
+	margin-bottom: 37px;
+}
+
+.wDetailSeriesTitle {
+
+}
+
+.wDetailSeriesDesc {
+	margin-bottom: 40px;
+}
+
+.wDetailSeriesItems {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.wDetailSeriesItems__item {
+
+}
+
+.wDetailSeriesItems__title {
+	background-color: #34a853;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	letter-spacing: .8px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.wDetailSeriesImg {
+	width: 203px;
+	height: 154px;
+	position: relative;
+	top: -5px;
+	margin-bottom: 10px;
+}
+
+.wDetailSeriesImg__img {
+	vertical-align: middle;
+}
+
+.wDetailSeriesInfo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.wDetailSeries__company {
+	font-size: 16px;
+	color: rgb(112, 112, 112);
+}
+
+.wDetailSeries__price {
+	font-size: 16px;
+	color: #707070;
+}
+
+.wDetailSeries__summ {
+	font-size: 20px;
+	color: #34a853;
+	font-weight: 700;
+}
+
+@media (max-width: 1170px) {
+	.wDetailSeriesItems {
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-top: -30px;
+	}
+
+	.wDetailSeriesItems__item {
+		flex-basis: 50%;
+		display: flex;
+		justify-content: center;
+		margin-top: 30px;
+	}
+
+	.wDetailSeriesItems__wrap {
+		width: 203px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

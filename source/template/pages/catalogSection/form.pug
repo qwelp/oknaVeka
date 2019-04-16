@@ -1,0 +1,21 @@
+section.consultationForm.stockForm.catSecForm
+	.container
+		.consultationFormWrapper
+			h2.consultationFormTitle.commonTitle Сезонная скидка на всю оконную продукцию
+			form(action="/")
+				.consultationFormBody
+					.consultationFormBody__col
+						.consultationFormInput
+							input.consultationFormInput__text.phone.phoneValid(type="text" name="cat-sec-phone" placeholder="+7-(xxx)-xxx-xx-xx")
+					.consultationFormBody__col
+						button.consultationForm__btn Получить скидку
+				.consultationFormPolity
+					.consultationFormPolity__col
+						label
+							.wSectionAppOptionsInput
+								input.wSectionAppOptionsInput__checkbox(type="checkbox" checked="checked" name=`wSectionAppOptionsInput-${i}`)
+								.wSectionAppOptionsInput__style
+					.consultationFormPolity__col
+						| Ознакомлен с
+						| "#[a.consultationFormPolity__link(href="#") Регламентом о защите персональных данных]"
+						| и выражаю согласие на их обработку

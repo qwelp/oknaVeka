@@ -1,0 +1,19 @@
+.wDetailItems
+	.container
+		ul.wDetailItems__items
+			each item in windowsItem
+				li.wDetailItems__item
+					.wDetailItems__size !{item.title}
+					.wDetailItemsImg
+						img.wDetailItemsImg__img(src=`${item.img}` alt="")
+					.wDetailItemsPrice
+						.wDetailItemsPrice__col
+							.wDetailItemsPrice__old от 3 680 ₽ /m2
+						.wDetailItemsPrice__col
+							.wDetailItemsPrice__summ от #[span.wDetailItemsPrice__int 3 100] ₽ /m2
+					.wDetailItems__info Рассрочка 0%: 450 р/мес
+		.wDetailItemsControl
+			a.wDetailItemsControl__btn.dBtn.blue(href="#")
+				.wDetailItemsControl__col.dBtn__col
+					.icon-calculator-white
+				.wDetailItemsControl__col.dBtn__col Рассчитать

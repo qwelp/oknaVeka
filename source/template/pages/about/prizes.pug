@@ -1,0 +1,8 @@
+.aboutPrizes
+	.container
+		.prizes__items
+			each item in aboutPrizes
+				.prizes__item
+					.prizesImg
+						img.prizes__img(src=`${item.img}` alt="")
+					.prizes__title=item.title

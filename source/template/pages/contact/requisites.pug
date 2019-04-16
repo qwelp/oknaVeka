@@ -1,0 +1,15 @@
+section.contactRequisites
+	.container
+		h2.contactRequisitesTitle.dTitle Реквизиты
+		.contactRequisites__items
+			each item in contactRequisites
+				.contactRequisites__item
+					.contactRequisites__col
+						.contactRequisites__icon
+							div(class=`icon-${item.icon}`)
+					.contactRequisites__col
+						.contactRequisites__title=item.title
+						.contactRequisites__text=item.text
+			.contactRequisites__item.contactRequisitesControl
+				.contactRequisites__title Написать письмо
+				button.contactDepartment__btn Написать

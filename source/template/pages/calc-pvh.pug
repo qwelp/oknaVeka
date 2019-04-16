@@ -1,0 +1,22 @@
+extends ../_template
+
+block variables
+	- var title = 'Калькулятор ПВХ'
+	- var step2 = 'pvh';
+	- var step5 = 2
+	- var step6 = 'noTitle'
+
+block content
+	include ../common/MenuCommonBlock_inner
+	include windows-detail/preview
+	include calc-tree/windows
+	include windows-section/step1
+	include windows-section/step2
+	include windows-section/step3
+	include windows-section/step4
+	include windows-section/step5
+	include windows-section/step6
+	include windows-section/application
+	include windows-detail/series
+	include windows-section/description
+	include index/ordering

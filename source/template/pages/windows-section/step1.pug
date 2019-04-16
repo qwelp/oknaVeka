@@ -1,0 +1,10 @@
+section.wSectionStep1
+	.container
+		h2.wSectionStep1Title.wSectionTitle #[strong Шаг 1] Выберите тип оконной конструкции
+		.wSectionStep1__items
+			each item in [1,2,3,4,5,6,7,9,10]
+				a.wSectionStep1__item(href="#")
+					.wSectionStep1__check
+						.icon-type-active
+					img.wSectionStep1__img(src=`assets/img/windows-section/type-${item}.png` alt="")
+					img.wSectionStep1__img-hover(src=`assets/img/windows-section/type-${item}-hover.png` alt="")

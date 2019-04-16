@@ -1,0 +1,10 @@
+section.contactDepartment
+	.container
+		h2.contactDepartmentTitle.dTitle
+		.contactDepartment__items
+			each item in contactDepartment
+				.contactDepartment__item
+					.contactDepartment__icon
+						div(class=`icon-${item.icon}`)
+					.contactDepartment__title=item.title
+					button.contactDepartment__btn Написать

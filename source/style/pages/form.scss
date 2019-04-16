@@ -1,0 +1,36 @@
+.catSecForm {
+
+	& form {
+		text-align: center;
+	}
+
+	& .consultationFormTitle {
+		margin-bottom: 20px;
+	}
+
+	& .consultationFormBody {
+		margin: 0 auto;
+	}
+
+	& .consultationFormInput {
+		width: 380px;
+	}
+
+	& .consultationFormPolity {
+		margin: 25px auto;
+		display: inline-flex;
+	}
+}
+
+@media (max-width: 991px) {
+	.catSecForm {
+
+		& .consultationFormWrapper{
+			padding: 20px;
+		}
+
+		& .consultationFormInput {
+			width: 100%;
+		}
+	}
+}

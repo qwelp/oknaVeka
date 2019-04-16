@@ -1,0 +1,40 @@
+section.wSectionStep2
+	.container
+		h2.wSectionStep2Title.wSectionTitle #[strong Шаг 2] Выберите профиль
+		.wSectionStep2Items
+			if step2 === 'light'
+				each item in step2_Light
+					.wSectionStep2__item
+						.wSectionStep2__title WHS (BXC)
+						.wSectionStep2__price от #[span.wSectionStep2__summ 1 400 ₽] /m2
+						.wSectionStep2Img
+							img.wSectionStep2__img(src=`${item.img}` alt="")
+						.wSectionStep2Control
+							.wSectionStep2Control__col
+								button.wSectionStep2Control__btn.commonBtn.blue Выбрать
+							.wSectionStep2Control__col
+								button.wSectionStep2Control__btn.commonBtn Подробнее
+			else if step2 === 'tree'
+				each item in step2_Windows
+					.wSectionStep2__item
+						.wSectionStep2__title WHS (BXC)
+						.wSectionStep2__price от #[span.wSectionStep2__summ 1 400 ₽] /m2
+						.wSectionStep2Img
+							img.wSectionStep2__img(src=`${item.img}` alt="")
+						.wSectionStep2Control
+							.wSectionStep2Control__col
+								button.wSectionStep2Control__btn.commonBtn.blue Выбрать
+							.wSectionStep2Control__col
+								button.wSectionStep2Control__btn.commonBtn Подробнее
+			else if step2 === 'pvh'
+				each item in step2_Pvh
+					.wSectionStep2__item
+						.wSectionStep2__title WHS (BXC)
+						.wSectionStep2__price от #[span.wSectionStep2__summ 1 400 ₽] /m2
+						.wSectionStep2Img
+							img.wSectionStep2__img(src=`${item.img}` alt="")
+						.wSectionStep2Control
+							.wSectionStep2Control__col
+								button.wSectionStep2Control__btn.commonBtn.blue Выбрать
+							.wSectionStep2Control__col
+								button.wSectionStep2Control__btn.commonBtn Подробнее

@@ -72,3 +72,43 @@
 	font-size: 20px;
 	font-weight: bold;
 }
+
+@media (max-width: 991px) {
+	.indexPopularTitle {
+		font-size: 26px;
+		margin: 10px 0;
+	}
+
+	.indexPopularDesc {
+		line-height: 22px;
+	}
+
+	.indexPopular__items {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: -20px;
+		margin-left: -20px;
+	}
+
+	.indexPopular__item {
+		flex: inherit;
+		width: calc(50% - 20px);
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 510px) {
+	.indexPopular__items {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin-left: 0;
+	}
+
+	.indexPopular__item {
+		flex: inherit;
+		width: 100%;
+		margin-left: 0;
+	}
+}

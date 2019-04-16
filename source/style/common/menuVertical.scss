@@ -41,6 +41,11 @@
 		width: 100%;
 		left: 0;
 		z-index: 100;
+		box-shadow: 1px 6px 3px 0 rgba(0,0,0,.23);
+
+		& ul {
+			box-shadow: 1px 6px 3px 0 rgba(0,0,0,.23);
+		}
 	}
 }
 

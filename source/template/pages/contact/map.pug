@@ -1,0 +1,38 @@
+.contactMap
+	.container
+		.contactMap__items
+			each item in [1,2,3,4,5,6]
+				.contactMap__item
+					.contactMap__wrap
+						.contactMap__col
+							.contactMapImg
+								img.contactMap__img(src="assets/img/contact/address.png")
+						.contactMap__col
+							script(type='text/javascript', charset='utf-8', async='', src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa25e03ea7ae80a4ae3f2caad6742d32d7b0a0e023b14f9113a7e08bc7086c068&width=100%&height=261&lang=ru_RU&scroll=true')
+					.contactMapInfo
+						.contactMapInfo__col
+							.contactMapInfoItem
+								.contactMapInfoItem__col
+									.contactMapInfoItem__icon
+										.icon-marker
+								.contactMapInfoItem__col
+									.contactMapInfoItem__title Адрес:
+									.contactMapInfoItem__text
+										| г. Санкт-Петербург дер.<br>
+										| Новое Девяткино, ул.Школьная д.15
+						.contactMapInfo__col
+							.contactMapInfoItem
+								.contactMapInfoItem__col
+									.contactMapInfoItem__icon
+										.icon-phone-call
+								.contactMapInfoItem__col
+									.contactMapInfoItem__title Телефон:
+									.contactMapInfoItem__text +7(495) 764-64-04
+						.contactMapInfo__col
+							.contactMapInfoItem
+								.contactMapInfoItem__col
+									.contactMapInfoItem__icon
+										.icon-clock
+								.contactMapInfoItem__col
+									.contactMapInfoItem__title Время работы:
+									.contactMapInfoItem__text Пн-Пт 9:00-20:00; Сб-Вс 9:00-1900

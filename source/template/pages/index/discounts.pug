@@ -7,11 +7,4 @@ section.indexDiscounts
 				| Профиль VEKA – металлопластиковый профиль, изготовленный из высококачественного экологичного
 				| пластика (ПВХ), устойчивого к влиянию внешней среды, элегантной и технически-продуманной до
 				| мельчайших деталей формы, шириной 58/70/90 мм.
-			ul.indexDiscounts__items
-				each item in indexDiscounts
-					li.indexDiscounts__item
-						img.indexDiscounts__img(src=`${item.img}` alt="")
-						.indexDiscountsPos
-							.indexDiscounts__title Скидка 50%
-							.indexDiscounts__text Скидка суммируется
-						a.indexDiscounts__link(href="#") Подробнее
+			include ../index/discounts_photo

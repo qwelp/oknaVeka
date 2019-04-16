@@ -90,3 +90,57 @@
 	transition: opacity .3s;
 }
 
+@media (max-width: 1170px) {
+	.indexDiscounts {
+		padding: 25px 0 77px;
+		background-color: #efefef;
+		margin-bottom: 60px;
+	}
+}
+
+@media (max-width: 991px) {
+	.indexDiscounts {
+		padding: 0 0 20px;
+		background-color: #efefef;
+		margin-bottom: 20px;
+	}
+
+	.indexDiscountsTitle {
+		font-size: 26px;
+		letter-spacing: -2.3px;
+		margin-bottom: 10px;
+	}
+
+	.commonDescription {
+		font-size: 15px;
+		line-height: 22px;
+	}
+
+	.indexDiscounts__items {
+		flex-direction: column;
+		align-items: center;
+		margin-left: 0;
+		margin-top: -20px;
+	}
+
+	.indexDiscounts__item {
+		margin-top: 20px;
+		margin-left: 0;
+	}
+}
+
+
+@media (max-width: 550px) {
+	.indexDiscounts__item {
+
+	}
+
+	.indexDiscounts__img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	.indexDiscounts__link {
+		display: none;
+	}
+}

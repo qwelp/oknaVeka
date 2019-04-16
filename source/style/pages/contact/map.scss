@@ -1,0 +1,108 @@
+.contactMap {
+	margin-bottom: 40px;
+}
+
+.contactMap__items {
+	margin-top: -60px;
+}
+
+.contactMap__item {
+	margin-top: 60px;
+}
+
+.contactMap__wrap {
+	display: flex;
+	margin-bottom: 28px;
+}
+
+.contactMap__col {
+
+	&:first-child {
+		width: 55%;
+		overflow: hidden;
+	}
+
+	&:last-child {
+		width: 45%;
+	}
+
+}
+
+.contactMapImg {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.contactMap__img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+
+.contactMapInfo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contactMapInfo__col {
+
+}
+
+.contactMapInfoItem {
+	display: flex;
+}
+
+.contactMapInfoItem__col {
+
+}
+
+.contactMapInfoItem__icon {
+	margin-right: 30px;
+}
+
+.contactMapInfoItem__title {
+	font-size: 18px;
+	color: #333333;
+	font-weight: lighter;
+	margin-bottom: 5px;
+}
+
+.contactMapInfoItem__text {
+	color: #282828;
+	line-height: 22px;
+}
+
+@media (max-width: 991px) {
+	.contactMapInfo {
+		flex-direction: column;
+		justify-content: center;
+		margin-top: -30px;
+	}
+
+	.contactMapInfo__col {
+		margin-top: 30px;
+	}
+
+	.contactMapInfoItem__icon {
+		width: 40px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.contactMap__col {
+
+		&:first-child {
+			display: none;
+		}
+
+		&:last-child {
+			width: 100%;
+		}
+
+	}
+}

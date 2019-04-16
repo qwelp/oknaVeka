@@ -1,0 +1,49 @@
+.ctWindows {
+	margin-bottom: 40px;
+}
+
+.ctWindows__items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: -30px 0 0 -30px;
+}
+
+.ctWindows__item {
+	margin-top: 30px;
+}
+
+.ctWindows__title {
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 24px;
+	color: #333333;
+}
+
+.ctWindowsPrice {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.ctWindowsImg {
+	margin-bottom: 15px;
+}
+
+.ctWindows__img {
+	vertical-align: middle;
+}
+
+.ctWindowsBtn {
+
+}
+
+@media (max-width: 1170px) {
+	.ctWindows__items {
+		justify-content: center;
+		margin-left: -30px;
+	}
+
+	.ctWindows__item {
+		margin-left: 30px;
+	}
+}
